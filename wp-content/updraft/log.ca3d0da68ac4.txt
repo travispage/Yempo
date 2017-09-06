@@ -1,0 +1,602 @@
+0000.000 (0) Opened log file at time: Mon, 14 Mar 2016 01:02:21 +0000 on http://www.yempo-solutions.com
+0000.006 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.11.27 WP: 4.4.2 PHP: 5.3.28 (Linux cp12.ezyreg.com 2.6.32-458.6.2.lve1.2.28.el6.x86_64 #1 SMP Wed Jul 3 13:39:48 EEST 2013 x86_64) MySQL: 5.5.47 Server: Apache/2.2.24 (Unix) mod_ssl/2.2.24 OpenSSL/1.0.0-fips mod_auth_passthrough/2.1 mod_bwlimited/1.4 mod_perl/2.0.6 Perl/v5.10.1 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 56.8M | 57.3M) multisite: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.254 (0) Free space on disk containing Updraft's temporary directory: 266173.7 Mb
+0000.261 (0) Tasks: Backup files: 1 (schedule: weekly) Backup DB:  (schedule: weekly)
+0000.265 (0) Processed schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.287 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.326 (0) Set semaphore last lock (fd) time to 2016-03-14 01:02:21
+0000.330 (0) Semaphore lock (fd) complete
+0000.346 (0) Backup run: resumption=0, nonce=ca3d0da68ac4, begun at=1457917341 (0s ago), job type=backup
+0000.356 (0) Scheduling a resumption (1) after 300 seconds (1457917641) in case this run gets aborted
+0000.402 (0) Checking if we have a zip executable available
+0000.406 (0) Testing: /usr/bin/zip
+0000.430 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.435 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.440 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.444 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=128) (out=105) (deflated 18%)
+0000.448 (0) Output: total bytes=128, compressed=105 -> 18% savings
+0000.458 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=135) (out=111) (deflated 18%)
+0008.263 (0) Output: total bytes=263, compressed=216 -> 18% savings
+0008.465 (0) Working binary zip found: /usr/bin/zip
+0008.880 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0009.115 (0) Creation of backups of directories: beginning
+0009.806 (0) Beginning creation of dump of plugins (split every: 500 Mb)
+0012.243 (0) Total entities for the zip file: 573 directories, 3396 files (0 skipped as non-modified), 51.8 Mb
+0012.266 (0) Zip: backup_2016-03-14-0102_Yempo_ca3d0da68ac4-plugins.zip.tmp: 100 files added (on-disk size: 0 Kb)
+0012.334 (0) Zip: backup_2016-03-14-0102_Yempo_ca3d0da68ac4-plugins.zip.tmp: 200 files added (on-disk size: 0 Kb)
+0012.347 (0) Zip: backup_2016-03-14-0102_Yempo_ca3d0da68ac4-plugins.zip.tmp: 300 files added (on-disk size: 0 Kb)
+0012.359 (0) Zip: backup_2016-03-14-0102_Yempo_ca3d0da68ac4-plugins.zip.tmp: 400 files added (on-disk size: 0 Kb)
+0012.373 (0) Zip: backup_2016-03-14-0102_Yempo_ca3d0da68ac4-plugins.zip.tmp: 500 files added (on-disk size: 0 Kb)
+0012.376 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (12.5 Mb, 3396 files batched, 501 (501) added so far); re-opening (prior size: 0 Kb)
+0058.303 (0) backup_2016-03-14-0102_Yempo_ca3d0da68ac4-plugins.zip.tmp: size is now: 4.10 Mb
+0058.316 (0) Zip: backup_2016-03-14-0102_Yempo_ca3d0da68ac4-plugins.zip.tmp: 600 files added (on-disk size: 4173.6 Kb)
+0058.322 (0) Zip: backup_2016-03-14-0102_Yempo_ca3d0da68ac4-plugins.zip.tmp: 700 files added (on-disk size: 4173.6 Kb)
+0058.329 (0) Zip: backup_2016-03-14-0102_Yempo_ca3d0da68ac4-plugins.zip.tmp: 800 files added (on-disk size: 4173.6 Kb)
+0058.337 (0) Zip: backup_2016-03-14-0102_Yempo_ca3d0da68ac4-plugins.zip.tmp: 900 files added (on-disk size: 4173.6 Kb)
+0058.344 (0) Zip: backup_2016-03-14-0102_Yempo_ca3d0da68ac4-plugins.zip.tmp: 1000 files added (on-disk size: 4173.6 Kb)
+0058.346 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.7 Mb, 3396 files batched, 501 (1002) added so far); re-opening (prior size: 4173.6 Kb)
+0087.544 (0) backup_2016-03-14-0102_Yempo_ca3d0da68ac4-plugins.zip.tmp: size is now: 5.20 Mb
+0087.559 (0) Zip: backup_2016-03-14-0102_Yempo_ca3d0da68ac4-plugins.zip.tmp: 1100 files added (on-disk size: 5362.1 Kb)
+0087.571 (0) Zip: backup_2016-03-14-0102_Yempo_ca3d0da68ac4-plugins.zip.tmp: 1200 files added (on-disk size: 5362.1 Kb)
+0091.079 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 2.0 seconds have passed since the last write (9.3 Mb, 199 (1201) files added so far); re-opening (prior size: 5362.1 Kb)
+0135.653 (0) backup_2016-03-14-0102_Yempo_ca3d0da68ac4-plugins.zip.tmp: size is now: 11.50 Mb
+0135.870 (0) Zip: backup_2016-03-14-0102_Yempo_ca3d0da68ac4-plugins.zip.tmp: 1300 files added (on-disk size: 11779 Kb)
+0135.876 (0) Zip: backup_2016-03-14-0102_Yempo_ca3d0da68ac4-plugins.zip.tmp: 1400 files added (on-disk size: 11779 Kb)
+0135.883 (0) Zip: backup_2016-03-14-0102_Yempo_ca3d0da68ac4-plugins.zip.tmp: 1500 files added (on-disk size: 11779 Kb)
+0135.890 (0) Zip: backup_2016-03-14-0102_Yempo_ca3d0da68ac4-plugins.zip.tmp: 1600 files added (on-disk size: 11779 Kb)
+0135.898 (0) Zip: backup_2016-03-14-0102_Yempo_ca3d0da68ac4-plugins.zip.tmp: 1700 files added (on-disk size: 11779 Kb)
+0135.902 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.8 Mb, 3396 files batched, 501 (1702) added so far); re-opening (prior size: 11779 Kb)
+0176.838 (0) backup_2016-03-14-0102_Yempo_ca3d0da68ac4-plugins.zip.tmp: size is now: 14.10 Mb
+0176.859 (0) Zip: backup_2016-03-14-0102_Yempo_ca3d0da68ac4-plugins.zip.tmp: 1800 files added (on-disk size: 14400 Kb)
+0176.869 (0) Zip: backup_2016-03-14-0102_Yempo_ca3d0da68ac4-plugins.zip.tmp: 1900 files added (on-disk size: 14400 Kb)
+0176.881 (0) Zip: backup_2016-03-14-0102_Yempo_ca3d0da68ac4-plugins.zip.tmp: 2000 files added (on-disk size: 14400 Kb)
+0176.927 (0) Zip: backup_2016-03-14-0102_Yempo_ca3d0da68ac4-plugins.zip.tmp: 2100 files added (on-disk size: 14400 Kb)
+0176.933 (0) Zip: backup_2016-03-14-0102_Yempo_ca3d0da68ac4-plugins.zip.tmp: 2200 files added (on-disk size: 14400 Kb)
+0176.947 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.7 Mb, 3396 files batched, 501 (2203) added so far); re-opening (prior size: 14400 Kb)
+0263.466 (0) The scheduled resumption is within 45 seconds - will reschedule
+0263.541 (0) Rescheduling resumption 1: moving to 345 seconds from now (1457917949)
+0263.637 (0) To decrease the likelihood of overlaps, increasing resumption interval to: 300 + 45 = 345
+0263.664 (0) Zip: backup_2016-03-14-0102_Yempo_ca3d0da68ac4-plugins.zip.tmp: 2300 files added (on-disk size: 15989.6 Kb)
+0263.748 (0) Zip: backup_2016-03-14-0102_Yempo_ca3d0da68ac4-plugins.zip.tmp: 2400 files added (on-disk size: 15989.6 Kb)
+0263.830 (0) Zip: backup_2016-03-14-0102_Yempo_ca3d0da68ac4-plugins.zip.tmp: 2500 files added (on-disk size: 15989.6 Kb)
+0263.860 (0) Zip: backup_2016-03-14-0102_Yempo_ca3d0da68ac4-plugins.zip.tmp: 2600 files added (on-disk size: 15989.6 Kb)
+0263.938 (0) Zip: backup_2016-03-14-0102_Yempo_ca3d0da68ac4-plugins.zip.tmp: 2700 files added (on-disk size: 15989.6 Kb)
+0263.952 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.4 Mb, 3396 files batched, 501 (2704) added so far); re-opening (prior size: 15989.6 Kb)
+0311.906 (0) Zip: backup_2016-03-14-0102_Yempo_ca3d0da68ac4-plugins.zip.tmp: 2800 files added (on-disk size: 17375.6 Kb)
+0311.912 (0) Zip: backup_2016-03-14-0102_Yempo_ca3d0da68ac4-plugins.zip.tmp: 2900 files added (on-disk size: 17375.6 Kb)
+0311.919 (0) Zip: backup_2016-03-14-0102_Yempo_ca3d0da68ac4-plugins.zip.tmp: 3000 files added (on-disk size: 17375.6 Kb)
+0311.925 (0) Zip: backup_2016-03-14-0102_Yempo_ca3d0da68ac4-plugins.zip.tmp: 3100 files added (on-disk size: 17375.6 Kb)
+0320.132 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 2.0 seconds have passed since the last write (6.2 Mb, 397 (3101) files added so far); re-opening (prior size: 17375.6 Kb)
+0353.758 (0) The time we have been running (353.5) is approaching the resumption interval (345) - increasing resumption interval to 384
+0359.633 (0) The time we have been running (359.6) is approaching the resumption interval (384) - increasing resumption interval to 390
+0373.300 (0) The time we have been running (372.9) is approaching the resumption interval (390) - increasing resumption interval to 403
+0376.817 (0) The time we have been running (376.8) is approaching the resumption interval (403) - increasing resumption interval to 407
+0376.981 (0) Zip: backup_2016-03-14-0102_Yempo_ca3d0da68ac4-plugins.zip.tmp: 3200 files added (on-disk size: 19295.4 Kb)
+0376.989 (0) Zip: backup_2016-03-14-0102_Yempo_ca3d0da68ac4-plugins.zip.tmp: 3300 files added (on-disk size: 19295.4 Kb)
+0409.027 (0) The time we have been running (408.8) is approaching the resumption interval (407) - increasing resumption interval to 439
+0422.605 (0) The time we have been running (422.6) is approaching the resumption interval (439) - increasing resumption interval to 453
+0422.943 (0) Created plugins zip (0) - 20429.6 Kb in 412.4 s (49.5 Kb/s) (SHA1 checksum: ee5a28086293b87753aa614d4492bdbcfbc2d116)
+0423.161 (0) Beginning creation of dump of themes (split every: 500 Mb)
+0423.686 (0) Total entities for the zip file: 90 directories, 750 files (0 skipped as non-modified), 9.4 Mb
+0427.064 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 2.0 seconds have passed since the last write (0.1 Mb, 1 (1) files added so far); re-opening (prior size: 0 Kb)
+0435.629 (0) backup_2016-03-14-0102_Yempo_ca3d0da68ac4-themes.zip.tmp: size is now: 0.00 Mb
+0436.183 (0) The time we have been running (435.8) is approaching the resumption interval (453) - increasing resumption interval to 466
+0436.661 (0) Zip: backup_2016-03-14-0102_Yempo_ca3d0da68ac4-themes.zip.tmp: 100 files added (on-disk size: 27.6 Kb)
+0436.868 (0) Zip: backup_2016-03-14-0102_Yempo_ca3d0da68ac4-themes.zip.tmp: 200 files added (on-disk size: 27.6 Kb)
+0437.129 (0) Zip: backup_2016-03-14-0102_Yempo_ca3d0da68ac4-themes.zip.tmp: 300 files added (on-disk size: 27.6 Kb)
+0437.340 (0) Zip: backup_2016-03-14-0102_Yempo_ca3d0da68ac4-themes.zip.tmp: 400 files added (on-disk size: 27.6 Kb)
+0437.584 (0) Zip: backup_2016-03-14-0102_Yempo_ca3d0da68ac4-themes.zip.tmp: 500 files added (on-disk size: 27.6 Kb)
+0437.781 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7 Mb, 750 files batched, 501 (502) added so far); re-opening (prior size: 27.6 Kb)
+0445.673 (0) The time we have been running (444.5) is approaching the resumption interval (466) - increasing resumption interval to 475
+0452.618 (0) The time we have been running (452.6) is approaching the resumption interval (475) - increasing resumption interval to 483
+0464.928 (0) The time we have been running (464.4) is approaching the resumption interval (483) - increasing resumption interval to 495
+0471.904 (0) The time we have been running (471.7) is approaching the resumption interval (495) - increasing resumption interval to 502
+0477.845 (0) The time we have been running (477.6) is approaching the resumption interval (502) - increasing resumption interval to 508
+0485.882 (0) backup_2016-03-14-0102_Yempo_ca3d0da68ac4-themes.zip.tmp: size is now: 3.40 Mb
+0486.892 (0) The time we have been running (486.4) is approaching the resumption interval (508) - increasing resumption interval to 517
+0487.326 (0) Zip: backup_2016-03-14-0102_Yempo_ca3d0da68ac4-themes.zip.tmp: 600 files added (on-disk size: 3521.8 Kb)
+0495.740 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 2.0 seconds have passed since the last write (0.5 Mb, 99 (601) files added so far); re-opening (prior size: 3521.8 Kb)
+0503.050 (0) The time we have been running (502.7) is approaching the resumption interval (517) - increasing resumption interval to 533
+0505.255 (0) The time we have been running (505.3) is approaching the resumption interval (533) - increasing resumption interval to 536
+0505.269 (0) Zip: backup_2016-03-14-0102_Yempo_ca3d0da68ac4-themes.zip.tmp: 700 files added (on-disk size: 3703.2 Kb)
+0515.540 (0) The time we have been running (515.3) is approaching the resumption interval (536) - increasing resumption interval to 546
+0522.488 (0) The time we have been running (521.8) is approaching the resumption interval (546) - increasing resumption interval to 552
+0523.620 (0) backup_2016-03-14-0102_Yempo_ca3d0da68ac4-themes.zip.tmp: size is now: 5.00 Mb
+0523.631 (0) The time we have been running (523.6) is approaching the resumption interval (552) - increasing resumption interval to 554
+0523.681 (0) Created themes zip (0) - 5100.9 Kb in 100.1 s (50.9 Kb/s) (SHA1 checksum: 61cf8a3768c4cfceccc19f67127523d883458d89)
+0523.731 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone
+0523.736 (0) Looking for candidates to back up in: /home/mymy2018/public_yemposolutions/wp-content/uploads
+0523.740 (0) finding files: 2012: adding to list (1)
+0523.744 (0) finding files: motopress-content-editor: adding to list (2)
+0523.747 (0) finding files: landing-pages: adding to list (3)
+0523.751 (0) finding files: 2013: adding to list (4)
+0523.754 (0) finding files: ithemes-security: adding to list (5)
+0523.786 (0) finding files: 2014: adding to list (6)
+0523.790 (0) finding files: 2009: adding to list (7)
+0523.794 (0) finding files: 2015: adding to list (8)
+0523.798 (0) finding files: 2016: adding to list (9)
+0523.802 (0) finding files: 2011: adding to list (10)
+0523.806 (0) finding files: 2010: adding to list (11)
+0523.809 (0) Beginning creation of dump of uploads (split every: 500 Mb)
+0536.605 (0) Total entities for the zip file: 35 directories, 1512 files (0 skipped as non-modified), 74.5 Mb
+0537.946 (0) Zip: backup_2016-03-14-0102_Yempo_ca3d0da68ac4-uploads.zip.tmp: 100 files added (on-disk size: 0 Kb)
+0538.196 (0) Zip: backup_2016-03-14-0102_Yempo_ca3d0da68ac4-uploads.zip.tmp: 200 files added (on-disk size: 0 Kb)
+0538.380 (0) Zip: backup_2016-03-14-0102_Yempo_ca3d0da68ac4-uploads.zip.tmp: 300 files added (on-disk size: 0 Kb)
+0538.619 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 2.0 seconds have passed since the last write (8.8 Mb, 301 (301) files added so far); re-opening (prior size: 0 Kb)
+0544.888 (0) The time we have been running (544.6) is approaching the resumption interval (554) - increasing resumption interval to 575
+0551.861 (0) The time we have been running (551.6) is approaching the resumption interval (575) - increasing resumption interval to 582
+0558.728 (0) The time we have been running (558.7) is approaching the resumption interval (582) - increasing resumption interval to 589
+0563.669 (0) backup_2016-03-14-0102_Yempo_ca3d0da68ac4-uploads.zip.tmp: size is now: 8.00 Mb
+0563.677 (0) The time we have been running (563.7) is approaching the resumption interval (589) - increasing resumption interval to 594
+0563.687 (0) The scheduled resumption is within 45 seconds - will reschedule
+0563.697 (0) Rescheduling resumption 1: moving to 639 seconds from now (1457918544)
+0563.711 (0) To decrease the likelihood of overlaps, increasing resumption interval to: 594 + 45 = 639
+0563.722 (0) Zip: backup_2016-03-14-0102_Yempo_ca3d0da68ac4-uploads.zip.tmp: 400 files added (on-disk size: 8171.4 Kb)
+0563.733 (0) Zip: backup_2016-03-14-0102_Yempo_ca3d0da68ac4-uploads.zip.tmp: 500 files added (on-disk size: 8171.4 Kb)
+0563.743 (0) Zip: backup_2016-03-14-0102_Yempo_ca3d0da68ac4-uploads.zip.tmp: 600 files added (on-disk size: 8171.4 Kb)
+0563.753 (0) Zip: backup_2016-03-14-0102_Yempo_ca3d0da68ac4-uploads.zip.tmp: 700 files added (on-disk size: 8171.4 Kb)
+0563.762 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 Mb added on this batch (25.1 Mb, 1512 files batched, 481 (782) added so far); re-opening (prior size: 8171.4 Kb)
+0615.273 (0) The time we have been running (615.3) is approaching the resumption interval (639) - increasing resumption interval to 646
+0628.220 (0) The time we have been running (627.9) is approaching the resumption interval (646) - increasing resumption interval to 658
+0644.230 (0) The time we have been running (643.7) is approaching the resumption interval (658) - increasing resumption interval to 674
+0650.320 (0) The time we have been running (650.1) is approaching the resumption interval (674) - increasing resumption interval to 681
+0665.433 (0) The time we have been running (664.7) is approaching the resumption interval (681) - increasing resumption interval to 695
+0672.237 (0) The time we have been running (671.8) is approaching the resumption interval (695) - increasing resumption interval to 702
+0679.369 (0) The time we have been running (678.8) is approaching the resumption interval (702) - increasing resumption interval to 709
+0689.647 (0) The time we have been running (689.3) is approaching the resumption interval (709) - increasing resumption interval to 720
+0705.160 (0) The time we have been running (704.7) is approaching the resumption interval (720) - increasing resumption interval to 735
+0707.491 (0) backup_2016-03-14-0102_Yempo_ca3d0da68ac4-uploads.zip.tmp: size is now: 32.50 Mb
+0707.500 (0) The time we have been running (707.5) is approaching the resumption interval (735) - increasing resumption interval to 738
+0707.512 (0) A useful amount of data was added after this amount of zip processing: 143.9 s (normalised: 143.2 s, rate: 178.8 Kb/s)
+0712.365 (0) Zip: backup_2016-03-14-0102_Yempo_ca3d0da68ac4-uploads.zip.tmp: 800 files added (on-disk size: 33252.9 Kb)
+0712.613 (0) Zip: backup_2016-03-14-0102_Yempo_ca3d0da68ac4-uploads.zip.tmp: 900 files added (on-disk size: 33252.9 Kb)
+0712.815 (0) Zip: backup_2016-03-14-0102_Yempo_ca3d0da68ac4-uploads.zip.tmp: 1000 files added (on-disk size: 33252.9 Kb)
+0713.047 (0) Zip: backup_2016-03-14-0102_Yempo_ca3d0da68ac4-uploads.zip.tmp: 1100 files added (on-disk size: 33252.9 Kb)
+0713.246 (0) Zip: backup_2016-03-14-0102_Yempo_ca3d0da68ac4-uploads.zip.tmp: 1200 files added (on-disk size: 33252.9 Kb)
+0713.482 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 Mb added on this batch (25.3 Mb, 1512 files batched, 454 (1236) added so far); re-opening (prior size: 33252.9 Kb)
+0780.280 (0) The time we have been running (780) is approaching the resumption interval (738) - increasing resumption interval to 810
+0795.079 (0) The time we have been running (794.8) is approaching the resumption interval (810) - increasing resumption interval to 825
+0803.085 (0) The time we have been running (802.7) is approaching the resumption interval (825) - increasing resumption interval to 833
+0812.662 (0) The time we have been running (812.3) is approaching the resumption interval (833) - increasing resumption interval to 843
+0827.672 (0) The time we have been running (827.7) is approaching the resumption interval (843) - increasing resumption interval to 858
+0852.691 (0) The time we have been running (852.7) is approaching the resumption interval (858) - increasing resumption interval to 883
+0864.386 (0) The time we have been running (864.1) is approaching the resumption interval (883) - increasing resumption interval to 895
+0874.846 (0) The time we have been running (874.5) is approaching the resumption interval (895) - increasing resumption interval to 905
+0882.286 (0) The time we have been running (881.7) is approaching the resumption interval (905) - increasing resumption interval to 912
+0911.325 (0) The time we have been running (910.9) is approaching the resumption interval (912) - increasing resumption interval to 941
+0916.122 (0) backup_2016-03-14-0102_Yempo_ca3d0da68ac4-uploads.zip.tmp: size is now: 56.30 Mb
+0916.131 (0) The time we have been running (916.1) is approaching the resumption interval (941) - increasing resumption interval to 947
+0916.138 (0) A useful amount of data was added after this amount of zip processing: 204.5 s (normalised: 202 s, rate: 126.8 Kb/s)
+0916.149 (0) Zip: backup_2016-03-14-0102_Yempo_ca3d0da68ac4-uploads.zip.tmp: 1300 files added (on-disk size: 57655.3 Kb)
+0916.155 (0) Zip: backup_2016-03-14-0102_Yempo_ca3d0da68ac4-uploads.zip.tmp: 1400 files added (on-disk size: 57655.3 Kb)
+0916.162 (0) Zip: backup_2016-03-14-0102_Yempo_ca3d0da68ac4-uploads.zip.tmp: 1500 files added (on-disk size: 57655.3 Kb)
+1040.660 (0) The time we have been running (1040.4) is approaching the resumption interval (947) - increasing resumption interval to 1071
+1063.946 (0) The time we have been running (1063.6) is approaching the resumption interval (1071) - increasing resumption interval to 1094
+1075.525 (0) The time we have been running (1074.9) is approaching the resumption interval (1094) - increasing resumption interval to 1105
+1089.874 (0) The time we have been running (1089.3) is approaching the resumption interval (1105) - increasing resumption interval to 1120
+1096.986 (0) The time we have been running (1095.7) is approaching the resumption interval (1120) - increasing resumption interval to 1126
+1110.107 (0) backup_2016-03-14-0102_Yempo_ca3d0da68ac4-uploads.zip.tmp: size is now: 71.60 Mb
+1110.532 (0) The time we have been running (1110.3) is approaching the resumption interval (1126) - increasing resumption interval to 1141
+1111.727 (0) Created uploads zip (0) - 73368.3 Kb in 575.7 s (127.4 Kb/s) (SHA1 checksum: bcd6d20af061954894137e7efade760d3a10e0c0)
+1112.188 (0) Beginning backup of other directories found in the content directory (index: 0)
+1112.415 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql
+1112.611 (0) Looking for candidates to back up in: /home/mymy2018/public_yemposolutions/wp-content
+1112.821 (0) finding files: advanced-cache.php: adding to list (1)
+1113.378 (0) finding files: uploads: skipping: this is the uploads directory
+1113.621 (0) finding files: plugins: skipping: this is the plugins directory
+1113.816 (0) finding files: themes: skipping: this is the themes directory
+1114.027 (0) finding files: upgrade: skipping: excluded by options
+1114.269 (0) finding files: cache: skipping: excluded by options
+1114.464 (0) finding files: updraft: skipping: this is the updraft directory
+1114.707 (0) finding files: index.php: adding to list (2)
+1114.902 (0) finding files: install.php: adding to list (3)
+1115.144 (0) finding files: object-cache.php: adding to list (4)
+1115.339 (0) finding files: w3tc-config: adding to list (5)
+1116.051 (0) Total entities for the zip file: 1 directories, 7 files (0 skipped as non-modified), 0 Mb
+1116.337 (0) backup_2016-03-14-0102_Yempo_ca3d0da68ac4-others.zip.tmp: size is now: 0.00 Mb
+1116.759 (0) The time we have been running (1116.6) is approaching the resumption interval (1141) - increasing resumption interval to 1147
+1117.439 (0) Created others zip (0) - 8.9 Kb in 1.6 s (5.6 Kb/s) (SHA1 checksum: 17eef213eb50cb9950a952f3ed10ff40c1e81f57)
+1118.283 (0) Saving backup status to database (elements: 8)
+1118.720 (0) Beginning creation of database dump (WordPress DB)
+1119.173 (0) Testing: /usr/bin/mysqldump
+1119.639 (0) Working binary mysqldump found: /usr/bin/mysqldump
+1128.026 (0) Table wp_options: Total expected rows (approximate): 312
+1128.359 (0) Table wp_options: Total rows added: 311 in 0.09 seconds
+1128.626 (0) Table wp_options: finishing file (backup_2016-03-14-0102_Yempo_ca3d0da68ac4-db-table-wp_options.table.gz - 24.3 Kb)
+1129.043 (0) The time we have been running (1128.8) is approaching the resumption interval (1147) - increasing resumption interval to 1159
+1129.057 (0) Table wp_users: Total expected rows (approximate): 2
+1129.075 (0) Table wp_users: Total rows added: 2 in 0.01 seconds
+1129.131 (0) Table wp_users: finishing file (backup_2016-03-14-0102_Yempo_ca3d0da68ac4-db-table-wp_users.table.gz - 0.7 Kb)
+1129.151 (0) The time we have been running (1129.1) is approaching the resumption interval (1159) - increasing resumption interval to 1160
+1129.234 (0) Table wp_usermeta: Total expected rows (approximate): 53
+1129.251 (0) Table wp_usermeta: Total rows added: 53 in 0.01 seconds
+1129.257 (0) Table wp_usermeta: finishing file (backup_2016-03-14-0102_Yempo_ca3d0da68ac4-db-table-wp_usermeta.table.gz - 1.7 Kb)
+1129.359 (0) Table wp_commentmeta: Total expected rows (approximate): 11
+1129.367 (0) Table wp_commentmeta: Total rows added: 11 in 0.00 seconds
+1129.372 (0) Table wp_commentmeta: finishing file (backup_2016-03-14-0102_Yempo_ca3d0da68ac4-db-table-wp_commentmeta.table.gz - 1.4 Kb)
+1129.445 (0) Table wp_comments: Total expected rows (approximate): 3
+1129.454 (0) Table wp_comments: Total rows added: 3 in 0.00 seconds
+1129.459 (0) Table wp_comments: finishing file (backup_2016-03-14-0102_Yempo_ca3d0da68ac4-db-table-wp_comments.table.gz - 1.2 Kb)
+1134.848 (0) Table wp_links: Total expected rows (approximate): 0
+1135.126 (0) Table wp_links: Total rows added: 0 in 0.01 seconds
+1135.340 (0) Table wp_links: finishing file (backup_2016-03-14-0102_Yempo_ca3d0da68ac4-db-table-wp_links.table.gz - 0.4 Kb)
+1135.785 (0) The time we have been running (1135.5) is approaching the resumption interval (1160) - increasing resumption interval to 1166
+1136.421 (0) Table wp_postmeta: Total expected rows (approximate): 2318
+1136.906 (0) Table wp_postmeta: Total rows added: 2318 in 0.24 seconds
+1137.216 (0) Table wp_postmeta: finishing file (backup_2016-03-14-0102_Yempo_ca3d0da68ac4-db-table-wp_postmeta.table.gz - 84.1 Kb)
+1137.663 (0) The time we have been running (1137.4) is approaching the resumption interval (1166) - increasing resumption interval to 1168
+1138.297 (0) Table wp_posts: Total expected rows (approximate): 795
+1139.313 (0) Table wp_posts: Total rows added: 795 in 0.81 seconds
+1139.547 (0) Table wp_posts: finishing file (backup_2016-03-14-0102_Yempo_ca3d0da68ac4-db-table-wp_posts.table.gz - 251.2 Kb)
+1140.022 (0) The time we have been running (1139.8) is approaching the resumption interval (1168) - increasing resumption interval to 1170
+1140.656 (0) Table wp_term_relationships: Total expected rows (approximate): 125
+1140.947 (0) Table wp_term_relationships: Total rows added: 125 in 0.00 seconds
+1141.234 (0) Table wp_term_relationships: finishing file (backup_2016-03-14-0102_Yempo_ca3d0da68ac4-db-table-wp_term_relationships.table.gz - 0.8 Kb)
+1141.672 (0) The time we have been running (1141.4) is approaching the resumption interval (1170) - increasing resumption interval to 1172
+1142.321 (0) Table wp_term_taxonomy: Total expected rows (approximate): 61
+1142.558 (0) Table wp_term_taxonomy: Total rows added: 61 in 0.00 seconds
+1142.765 (0) Table wp_term_taxonomy: finishing file (backup_2016-03-14-0102_Yempo_ca3d0da68ac4-db-table-wp_term_taxonomy.table.gz - 0.9 Kb)
+1143.242 (0) The time we have been running (1143) is approaching the resumption interval (1172) - increasing resumption interval to 1173
+1143.876 (0) Table wp_termmeta: Total expected rows (approximate): 0
+1144.126 (0) Table wp_termmeta: Total rows added: 0 in 0.03 seconds
+1144.335 (0) Table wp_termmeta: finishing file (backup_2016-03-14-0102_Yempo_ca3d0da68ac4-db-table-wp_termmeta.table.gz - 0.4 Kb)
+1144.811 (0) The time we have been running (1144.6) is approaching the resumption interval (1173) - increasing resumption interval to 1175
+1145.461 (0) Table wp_terms: Total expected rows (approximate): 61
+1145.652 (0) Table wp_terms: Total rows added: 61 in 0.00 seconds
+1145.889 (0) Table wp_terms: finishing file (backup_2016-03-14-0102_Yempo_ca3d0da68ac4-db-table-wp_terms.table.gz - 1.2 Kb)
+1146.336 (0) The time we have been running (1146.1) is approaching the resumption interval (1175) - increasing resumption interval to 1177
+1146.986 (0) Table wp_blc_filters: Total expected rows (approximate): 0
+1147.226 (0) Table wp_blc_filters: Total rows added: 0 in 0.00 seconds
+1147.436 (0) Table wp_blc_filters: finishing file (backup_2016-03-14-0102_Yempo_ca3d0da68ac4-db-table-wp_blc_filters.table.gz - 0.3 Kb)
+1147.894 (0) The time we have been running (1147.7) is approaching the resumption interval (1177) - increasing resumption interval to 1178
+1148.536 (0) Table wp_blc_instances: Total expected rows (approximate): 79
+1148.767 (0) Table wp_blc_instances: Total rows added: 79 in 0.00 seconds
+1148.973 (0) Table wp_blc_instances: finishing file (backup_2016-03-14-0102_Yempo_ca3d0da68ac4-db-table-wp_blc_instances.table.gz - 2.7 Kb)
+1149.441 (0) The time we have been running (1149.2) is approaching the resumption interval (1178) - increasing resumption interval to 1180
+1150.091 (0) Table wp_blc_links: Total expected rows (approximate): 60
+1150.333 (0) Table wp_blc_links: Total rows added: 60 in 0.01 seconds
+1150.566 (0) Table wp_blc_links: finishing file (backup_2016-03-14-0102_Yempo_ca3d0da68ac4-db-table-wp_blc_links.table.gz - 9.1 Kb)
+1151.032 (0) The time we have been running (1150.8) is approaching the resumption interval (1180) - increasing resumption interval to 1181
+1151.667 (0) Table wp_blc_synch: Total expected rows (approximate): 38
+1151.859 (0) Table wp_blc_synch: Total rows added: 38 in 0.00 seconds
+1151.862 (0) Table wp_blc_synch: finishing file (backup_2016-03-14-0102_Yempo_ca3d0da68ac4-db-table-wp_blc_synch.table.gz - 0.6 Kb)
+1152.103 (0) The time we have been running (1152.1) is approaching the resumption interval (1181) - increasing resumption interval to 1183
+1152.117 (0) Table wp_itsec_lockouts: Total expected rows (approximate): 2
+1152.130 (0) Table wp_itsec_lockouts: Total rows added: 2 in 0.01 seconds
+1152.132 (0) Table wp_itsec_lockouts: finishing file (backup_2016-03-14-0102_Yempo_ca3d0da68ac4-db-table-wp_itsec_lockouts.table.gz - 0.5 Kb)
+1152.147 (0) Table wp_itsec_log: Total expected rows (approximate): 129
+1152.191 (0) Table wp_itsec_log: Total rows added: 129 in 0.04 seconds
+1152.194 (0) Table wp_itsec_log: finishing file (backup_2016-03-14-0102_Yempo_ca3d0da68ac4-db-table-wp_itsec_log.table.gz - 2.3 Kb)
+1152.213 (0) Table wp_itsec_temp: Total expected rows (approximate): 20
+1152.232 (0) Table wp_itsec_temp: Total rows added: 20 in 0.02 seconds
+1152.235 (0) Table wp_itsec_temp: finishing file (backup_2016-03-14-0102_Yempo_ca3d0da68ac4-db-table-wp_itsec_temp.table.gz - 0.6 Kb)
+1152.248 (0) Table wp_redirection_404: Total expected rows (approximate): 199
+1152.312 (0) Table wp_redirection_404: Total rows added: 199 in 0.06 seconds
+1152.316 (0) Table wp_redirection_404: finishing file (backup_2016-03-14-0102_Yempo_ca3d0da68ac4-db-table-wp_redirection_404.table.gz - 5.7 Kb)
+1157.398 (0) Table wp_redirection_groups: Total expected rows (approximate): 2
+1157.652 (0) Table wp_redirection_groups: Total rows added: 2 in 0.00 seconds
+1157.883 (0) Table wp_redirection_groups: finishing file (backup_2016-03-14-0102_Yempo_ca3d0da68ac4-db-table-wp_redirection_groups.table.gz - 0.4 Kb)
+1158.343 (0) The time we have been running (1158.1) is approaching the resumption interval (1183) - increasing resumption interval to 1189
+1158.780 (0) The scheduled resumption is within 45 seconds - will reschedule
+1159.227 (0) Rescheduling resumption 1: moving to 600 seconds from now (1457919100)
+1159.914 (0) To decrease the likelihood of overlaps, increasing resumption interval to: 1189 + 45 = 1234
+1160.330 (0) Table wp_redirection_items: Total expected rows (approximate): 32
+1160.567 (0) Table wp_redirection_items: Total rows added: 32 in 0.00 seconds
+1160.797 (0) Table wp_redirection_items: finishing file (backup_2016-03-14-0102_Yempo_ca3d0da68ac4-db-table-wp_redirection_items.table.gz - 1.5 Kb)
+1161.439 (0) Table wp_redirection_logs: Total expected rows (approximate): 22
+1161.880 (0) Table wp_redirection_logs: Total rows added: 22 in 0.12 seconds
+1162.078 (0) Table wp_redirection_logs: finishing file (backup_2016-03-14-0102_Yempo_ca3d0da68ac4-db-table-wp_redirection_logs.table.gz - 1.2 Kb)
+1162.743 (0) Table wp_w3tc_cdn_queue: Total expected rows (approximate): 0
+1162.949 (0) Table wp_w3tc_cdn_queue: Total rows added: 0 in 0.00 seconds
+1163.187 (0) Table wp_w3tc_cdn_queue: finishing file (backup_2016-03-14-0102_Yempo_ca3d0da68ac4-db-table-wp_w3tc_cdn_queue.table.gz - 0.4 Kb)
+1163.865 (0) Table wp_wfBadLeechers: Total expected rows (approximate): 0
+1164.094 (0) Table wp_wfBadLeechers: Total rows added: 0 in 0.00 seconds
+1164.320 (0) Table wp_wfBadLeechers: finishing file (backup_2016-03-14-0102_Yempo_ca3d0da68ac4-db-table-wp_wfBadLeechers.table.gz - 0.3 Kb)
+1165.032 (0) Table wp_wfBlockedIPLog: Total expected rows (approximate): 45
+1165.238 (0) Table wp_wfBlockedIPLog: Total rows added: 45 in 0.01 seconds
+1165.486 (0) Table wp_wfBlockedIPLog: finishing file (backup_2016-03-14-0102_Yempo_ca3d0da68ac4-db-table-wp_wfBlockedIPLog.table.gz - 0.7 Kb)
+1166.491 (0) Table wp_wfBlocks: Total expected rows (approximate): 1
+1166.727 (0) Table wp_wfBlocks: Total rows added: 1 in 0.01 seconds
+1167.039 (0) Table wp_wfBlocks: finishing file (backup_2016-03-14-0102_Yempo_ca3d0da68ac4-db-table-wp_wfBlocks.table.gz - 0.4 Kb)
+1167.694 (0) Table wp_wfBlocksAdv: Total expected rows (approximate): 0
+1167.916 (0) Table wp_wfBlocksAdv: Total rows added: 0 in 0.00 seconds
+1168.148 (0) Table wp_wfBlocksAdv: finishing file (backup_2016-03-14-0102_Yempo_ca3d0da68ac4-db-table-wp_wfBlocksAdv.table.gz - 0.3 Kb)
+1168.913 (0) Table wp_wfConfig: Total expected rows (approximate): 122
+1169.153 (0) Table wp_wfConfig: Total rows added: 122 in 0.08 seconds
+1169.353 (0) Table wp_wfConfig: finishing file (backup_2016-03-14-0102_Yempo_ca3d0da68ac4-db-table-wp_wfConfig.table.gz - 2.2 Kb)
+1170.241 (0) Table wp_wfCrawlers: Total expected rows (approximate): 9
+1170.517 (0) Table wp_wfCrawlers: Total rows added: 9 in 0.07 seconds
+1170.713 (0) Table wp_wfCrawlers: finishing file (backup_2016-03-14-0102_Yempo_ca3d0da68ac4-db-table-wp_wfCrawlers.table.gz - 0.6 Kb)
+1171.428 (0) Table wp_wfFileMods: Total expected rows (approximate): 6918
+1172.252 (0) Table wp_wfFileMods: Total rows added: 6918 in 0.65 seconds
+1172.482 (0) Table wp_wfFileMods: finishing file (backup_2016-03-14-0102_Yempo_ca3d0da68ac4-db-table-wp_wfFileMods.table.gz - 312.4 Kb)
+1173.155 (0) Table wp_wfHits: Total expected rows (approximate): 1893
+1173.872 (0) Table wp_wfHits: Total rows added: 1893 in 0.50 seconds
+1174.125 (0) Table wp_wfHits: finishing file (backup_2016-03-14-0102_Yempo_ca3d0da68ac4-db-table-wp_wfHits.table.gz - 51 Kb)
+1174.826 (0) Table wp_wfHoover: Total expected rows (approximate): 0
+1175.032 (0) Table wp_wfHoover: Total rows added: 0 in 0.00 seconds
+1175.272 (0) Table wp_wfHoover: finishing file (backup_2016-03-14-0102_Yempo_ca3d0da68ac4-db-table-wp_wfHoover.table.gz - 0.3 Kb)
+1175.899 (0) Table wp_wfIssues: Total expected rows (approximate): 8
+1176.140 (0) Table wp_wfIssues: Total rows added: 8 in 0.04 seconds
+1176.342 (0) Table wp_wfIssues: finishing file (backup_2016-03-14-0102_Yempo_ca3d0da68ac4-db-table-wp_wfIssues.table.gz - 2.1 Kb)
+1177.033 (0) Table wp_wfLeechers: Total expected rows (approximate): 211
+1177.459 (0) Table wp_wfLeechers: Total rows added: 211 in 0.24 seconds
+1177.663 (0) Table wp_wfLeechers: finishing file (backup_2016-03-14-0102_Yempo_ca3d0da68ac4-db-table-wp_wfLeechers.table.gz - 1.8 Kb)
+1178.444 (0) Table wp_wfLockedOut: Total expected rows (approximate): 0
+1178.660 (0) Table wp_wfLockedOut: Total rows added: 0 in 0.05 seconds
+1178.865 (0) Table wp_wfLockedOut: finishing file (backup_2016-03-14-0102_Yempo_ca3d0da68ac4-db-table-wp_wfLockedOut.table.gz - 0.3 Kb)
+1179.519 (0) Table wp_wfLocs: Total expected rows (approximate): 0
+1179.718 (0) Table wp_wfLocs: Total rows added: 0 in 0.00 seconds
+1179.958 (0) Table wp_wfLocs: finishing file (backup_2016-03-14-0102_Yempo_ca3d0da68ac4-db-table-wp_wfLocs.table.gz - 0.4 Kb)
+1180.657 (0) Table wp_wfLogins: Total expected rows (approximate): 526
+1181.059 (0) Table wp_wfLogins: Total rows added: 526 in 0.20 seconds
+1181.270 (0) Table wp_wfLogins: finishing file (backup_2016-03-14-0102_Yempo_ca3d0da68ac4-db-table-wp_wfLogins.table.gz - 10.2 Kb)
+1181.956 (0) Table wp_wfNet404s: Total expected rows (approximate): 1
+1182.128 (0) Table wp_wfNet404s: Total rows added: 1 in 0.01 seconds
+1182.160 (0) Table wp_wfNet404s: finishing file (backup_2016-03-14-0102_Yempo_ca3d0da68ac4-db-table-wp_wfNet404s.table.gz - 0.4 Kb)
+1182.372 (0) Table wp_wfReverseCache: Total expected rows (approximate): 3
+1182.395 (0) Table wp_wfReverseCache: Total rows added: 3 in 0.02 seconds
+1182.398 (0) Table wp_wfReverseCache: finishing file (backup_2016-03-14-0102_Yempo_ca3d0da68ac4-db-table-wp_wfReverseCache.table.gz - 0.4 Kb)
+1182.475 (0) Table wp_wfScanners: Total expected rows (approximate): 16
+1182.760 (0) Table wp_wfScanners: Total rows added: 16 in 0.28 seconds
+1182.764 (0) Table wp_wfScanners: finishing file (backup_2016-03-14-0102_Yempo_ca3d0da68ac4-db-table-wp_wfScanners.table.gz - 0.5 Kb)
+1183.332 (0) Table wp_wfStatus: Total expected rows (approximate): 965
+1183.646 (0) Table wp_wfStatus: Total rows added: 965 in 0.31 seconds
+1183.649 (0) Table wp_wfStatus: finishing file (backup_2016-03-14-0102_Yempo_ca3d0da68ac4-db-table-wp_wfStatus.table.gz - 17 Kb)
+1183.676 (0) Table wp_wfThrottleLog: Total expected rows (approximate): 0
+1183.734 (0) Table wp_wfThrottleLog: Total rows added: 0 in 0.00 seconds
+1183.743 (0) Table wp_wfThrottleLog: finishing file (backup_2016-03-14-0102_Yempo_ca3d0da68ac4-db-table-wp_wfThrottleLog.table.gz - 0.3 Kb)
+1183.776 (0) Table wp_wfVulnScanners: Total expected rows (approximate): 0
+1183.840 (0) Table wp_wfVulnScanners: Total rows added: 0 in 0.00 seconds
+1189.168 (0) Table wp_wfVulnScanners: finishing file (backup_2016-03-14-0102_Yempo_ca3d0da68ac4-db-table-wp_wfVulnScanners.table.gz - 0.3 Kb)
+1189.813 (0) backup_2016-03-14-0102_Yempo_ca3d0da68ac4-db-table-wp_options.table.gz (1/44): adding to final database dump
+1190.052 (0) backup_2016-03-14-0102_Yempo_ca3d0da68ac4-db-table-wp_users.table.gz (2/44): adding to final database dump
+1190.294 (0) backup_2016-03-14-0102_Yempo_ca3d0da68ac4-db-table-wp_usermeta.table.gz (3/44): adding to final database dump
+1190.526 (0) backup_2016-03-14-0102_Yempo_ca3d0da68ac4-db-table-wp_commentmeta.table.gz (4/44): adding to final database dump
+1190.799 (0) backup_2016-03-14-0102_Yempo_ca3d0da68ac4-db-table-wp_comments.table.gz (5/44): adding to final database dump
+1191.026 (0) backup_2016-03-14-0102_Yempo_ca3d0da68ac4-db-table-wp_links.table.gz (6/44): adding to final database dump
+1191.241 (0) backup_2016-03-14-0102_Yempo_ca3d0da68ac4-db-table-wp_postmeta.table.gz (7/44): adding to final database dump
+1191.666 (0) backup_2016-03-14-0102_Yempo_ca3d0da68ac4-db-table-wp_posts.table.gz (8/44): adding to final database dump
+1192.369 (0) backup_2016-03-14-0102_Yempo_ca3d0da68ac4-db-table-wp_term_relationships.table.gz (9/44): adding to final database dump
+1192.570 (0) backup_2016-03-14-0102_Yempo_ca3d0da68ac4-db-table-wp_term_taxonomy.table.gz (10/44): adding to final database dump
+1192.826 (0) backup_2016-03-14-0102_Yempo_ca3d0da68ac4-db-table-wp_termmeta.table.gz (11/44): adding to final database dump
+1193.006 (0) backup_2016-03-14-0102_Yempo_ca3d0da68ac4-db-table-wp_terms.table.gz (12/44): adding to final database dump
+1193.249 (0) backup_2016-03-14-0102_Yempo_ca3d0da68ac4-db-table-wp_blc_filters.table.gz (13/44): adding to final database dump
+1193.425 (0) backup_2016-03-14-0102_Yempo_ca3d0da68ac4-db-table-wp_blc_instances.table.gz (14/44): adding to final database dump
+1193.463 (0) backup_2016-03-14-0102_Yempo_ca3d0da68ac4-db-table-wp_blc_links.table.gz (15/44): adding to final database dump
+1193.472 (0) backup_2016-03-14-0102_Yempo_ca3d0da68ac4-db-table-wp_blc_synch.table.gz (16/44): adding to final database dump
+1193.475 (0) backup_2016-03-14-0102_Yempo_ca3d0da68ac4-db-table-wp_itsec_lockouts.table.gz (17/44): adding to final database dump
+1193.534 (0) backup_2016-03-14-0102_Yempo_ca3d0da68ac4-db-table-wp_itsec_log.table.gz (18/44): adding to final database dump
+1193.537 (0) backup_2016-03-14-0102_Yempo_ca3d0da68ac4-db-table-wp_itsec_temp.table.gz (19/44): adding to final database dump
+1193.544 (0) backup_2016-03-14-0102_Yempo_ca3d0da68ac4-db-table-wp_redirection_404.table.gz (20/44): adding to final database dump
+1193.548 (0) backup_2016-03-14-0102_Yempo_ca3d0da68ac4-db-table-wp_redirection_groups.table.gz (21/44): adding to final database dump
+1193.576 (0) backup_2016-03-14-0102_Yempo_ca3d0da68ac4-db-table-wp_redirection_items.table.gz (22/44): adding to final database dump
+1193.579 (0) backup_2016-03-14-0102_Yempo_ca3d0da68ac4-db-table-wp_redirection_logs.table.gz (23/44): adding to final database dump
+1193.581 (0) backup_2016-03-14-0102_Yempo_ca3d0da68ac4-db-table-wp_w3tc_cdn_queue.table.gz (24/44): adding to final database dump
+1193.583 (0) backup_2016-03-14-0102_Yempo_ca3d0da68ac4-db-table-wp_wfBadLeechers.table.gz (25/44): adding to final database dump
+1193.585 (0) backup_2016-03-14-0102_Yempo_ca3d0da68ac4-db-table-wp_wfBlockedIPLog.table.gz (26/44): adding to final database dump
+1193.589 (0) backup_2016-03-14-0102_Yempo_ca3d0da68ac4-db-table-wp_wfBlocks.table.gz (27/44): adding to final database dump
+1193.591 (0) backup_2016-03-14-0102_Yempo_ca3d0da68ac4-db-table-wp_wfBlocksAdv.table.gz (28/44): adding to final database dump
+1193.593 (0) backup_2016-03-14-0102_Yempo_ca3d0da68ac4-db-table-wp_wfConfig.table.gz (29/44): adding to final database dump
+1193.628 (0) backup_2016-03-14-0102_Yempo_ca3d0da68ac4-db-table-wp_wfCrawlers.table.gz (30/44): adding to final database dump
+1193.630 (0) backup_2016-03-14-0102_Yempo_ca3d0da68ac4-db-table-wp_wfFileMods.table.gz (31/44): adding to final database dump
+1194.230 (0) backup_2016-03-14-0102_Yempo_ca3d0da68ac4-db-table-wp_wfHits.table.gz (32/44): adding to final database dump
+1194.338 (0) backup_2016-03-14-0102_Yempo_ca3d0da68ac4-db-table-wp_wfHoover.table.gz (33/44): adding to final database dump
+1194.344 (0) backup_2016-03-14-0102_Yempo_ca3d0da68ac4-db-table-wp_wfIssues.table.gz (34/44): adding to final database dump
+1194.347 (0) backup_2016-03-14-0102_Yempo_ca3d0da68ac4-db-table-wp_wfLeechers.table.gz (35/44): adding to final database dump
+1194.350 (0) backup_2016-03-14-0102_Yempo_ca3d0da68ac4-db-table-wp_wfLockedOut.table.gz (36/44): adding to final database dump
+1194.356 (0) backup_2016-03-14-0102_Yempo_ca3d0da68ac4-db-table-wp_wfLocs.table.gz (37/44): adding to final database dump
+1194.358 (0) backup_2016-03-14-0102_Yempo_ca3d0da68ac4-db-table-wp_wfLogins.table.gz (38/44): adding to final database dump
+1194.367 (0) backup_2016-03-14-0102_Yempo_ca3d0da68ac4-db-table-wp_wfNet404s.table.gz (39/44): adding to final database dump
+1194.369 (0) backup_2016-03-14-0102_Yempo_ca3d0da68ac4-db-table-wp_wfReverseCache.table.gz (40/44): adding to final database dump
+1194.371 (0) backup_2016-03-14-0102_Yempo_ca3d0da68ac4-db-table-wp_wfScanners.table.gz (41/44): adding to final database dump
+1194.411 (0) backup_2016-03-14-0102_Yempo_ca3d0da68ac4-db-table-wp_wfStatus.table.gz (42/44): adding to final database dump
+1194.435 (0) backup_2016-03-14-0102_Yempo_ca3d0da68ac4-db-table-wp_wfThrottleLog.table.gz (43/44): adding to final database dump
+1194.437 (0) backup_2016-03-14-0102_Yempo_ca3d0da68ac4-db-table-wp_wfVulnScanners.table.gz (44/44): adding to final database dump
+1194.439 (0) backup_2016-03-14-0102_Yempo_ca3d0da68ac4-db.gz: finished writing out complete database file (784 Kb)
+1194.711 (0) Total database tables backed up: 44 (backup_2016-03-14-0102_Yempo_ca3d0da68ac4-db.gz, size: 806269, checksum (SHA1): 68baf6e69b65db65dfb4553ed99e19dab92fc45a)
+1194.748 (0) backup_2016-03-14-0102_Yempo_ca3d0da68ac4-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+1194.751 (0) backup_2016-03-14-0102_Yempo_ca3d0da68ac4-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+1194.754 (0) backup_2016-03-14-0102_Yempo_ca3d0da68ac4-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+1194.758 (0) backup_2016-03-14-0102_Yempo_ca3d0da68ac4-others.zip: others: This file has not yet been successfully uploaded: will queue
+1194.761 (0) backup_2016-03-14-0102_Yempo_ca3d0da68ac4-db.gz: db: This file has not yet been successfully uploaded: will queue
+1194.764 (0) Saving backup history. Total backup size: 97.4 Mb
+1194.772 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+1194.784 (0) Cloud backup selection (1/1): dropbox (last)
+1194.789 (0) Beginning dispatch of backup to remote (dropbox)
+1194.793 (0) Dropbox: begin cloud upload
+1194.861 (0) Dropbox: access gained
+1196.007 (0) Dropbox error: exception (Dropbox_Exception) occurred whilst getting account info: User has removed their App folder.
+1196.011 (0) Dropbox: Attempt to upload: backup_2016-03-14-0102_Yempo_ca3d0da68ac4-plugins.zip to: backup_2016-03-14-0102_Yempo_ca3d0da68ac4-plugins.zip
+1202.384 (0) Dropbox chunked upload exception (Dropbox_Exception): User has removed their App folder. (line: 177, file: /home/mymy2018/public_yemposolutions/wp-content/plugins/updraftplus/includes/Dropbox/OAuth/Consumer/Curl.php)
+1202.387 (0) Dropbox error: User has removed their App folder.
+1202.391 (0) An error condition has occurred for the first time during this job
+1203.440 (0) Dropbox error: exception (Dropbox_Exception) occurred whilst getting account info: User has removed their App folder.
+1203.444 (0) Dropbox: Attempt to upload: backup_2016-03-14-0102_Yempo_ca3d0da68ac4-themes.zip to: backup_2016-03-14-0102_Yempo_ca3d0da68ac4-themes.zip
+1208.897 (0) Dropbox chunked upload exception (Dropbox_Exception): User has removed their App folder. (line: 177, file: /home/mymy2018/public_yemposolutions/wp-content/plugins/updraftplus/includes/Dropbox/OAuth/Consumer/Curl.php)
+1208.900 (0) Dropbox error: User has removed their App folder.
+1209.953 (0) Dropbox error: exception (Dropbox_Exception) occurred whilst getting account info: User has removed their App folder.
+1209.957 (0) Dropbox: Attempt to upload: backup_2016-03-14-0102_Yempo_ca3d0da68ac4-uploads.zip to: backup_2016-03-14-0102_Yempo_ca3d0da68ac4-uploads.zip
+1215.268 (0) Dropbox chunked upload exception (Dropbox_Exception): User has removed their App folder. (line: 177, file: /home/mymy2018/public_yemposolutions/wp-content/plugins/updraftplus/includes/Dropbox/OAuth/Consumer/Curl.php)
+1215.270 (0) Dropbox error: User has removed their App folder.
+1216.339 (0) Dropbox error: exception (Dropbox_Exception) occurred whilst getting account info: User has removed their App folder.
+1216.341 (0) Dropbox: Attempt to upload: backup_2016-03-14-0102_Yempo_ca3d0da68ac4-others.zip to: backup_2016-03-14-0102_Yempo_ca3d0da68ac4-others.zip
+1217.406 (0) Dropbox chunked upload exception (Dropbox_Exception): User has removed their App folder. (line: 177, file: /home/mymy2018/public_yemposolutions/wp-content/plugins/updraftplus/includes/Dropbox/OAuth/Consumer/Curl.php)
+1217.409 (0) Dropbox error: User has removed their App folder.
+1218.460 (0) Dropbox error: exception (Dropbox_Exception) occurred whilst getting account info: User has removed their App folder.
+1218.464 (0) Dropbox: Attempt to upload: backup_2016-03-14-0102_Yempo_ca3d0da68ac4-db.gz to: backup_2016-03-14-0102_Yempo_ca3d0da68ac4-db.gz
+1223.128 (0) Dropbox chunked upload exception (Dropbox_Exception): User has removed their App folder. (line: 177, file: /home/mymy2018/public_yemposolutions/wp-content/plugins/updraftplus/includes/Dropbox/OAuth/Consumer/Curl.php)
+1223.132 (0) Dropbox error: User has removed their App folder.
+1223.140 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+1223.144 (0) Number of backup sets in history: 3; groups (db): 1
+1223.147 (0) Examining (for databases) backup set with group_id=0, nonce=ca3d0da68ac4, datestamp=1457917341 (Mar 14 2016 01:02:21)
+1223.151 (0) This backup set is the backup set just made, so will not be deleted.
+1223.154 (0) Examining (for databases) backup set with group_id=0, nonce=d4877d43d004, datestamp=1456292313 (Feb 24 2016 05:38:33)
+1223.157 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+1223.173 (0) Examining (for databases) backup set with group_id=0, nonce=cfc0d1bf1425, datestamp=1455687343 (Feb 17 2016 05:35:43)
+1223.177 (0) 1455687343: db: this set includes a database (backup_2016-02-17-0535_Yempo_cfc0d1bf1425-db.gz); db count is now 2
+1223.180 (0) 1455687343: db: over retain limit (2); will delete this database
+1223.184 (0) Delete file: backup_2016-02-17-0535_Yempo_cfc0d1bf1425-db.gz, service=dropbox
+1223.188 (0) Dropbox: request deletion: backup_2016-02-17-0535_Yempo_cfc0d1bf1425-db.gz
+1224.244 (0) Dropbox error: User has removed their App folder. (line: 177, file: /home/mymy2018/public_yemposolutions/wp-content/plugins/updraftplus/includes/Dropbox/OAuth/Consumer/Curl.php)
+1224.257 (0) The time we have been running (1224.2) is approaching the resumption interval (1234) - increasing resumption interval to 1255
+1224.265 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+1224.269 (0) Number of backup sets in history: 3; groups (files): 1
+1224.272 (0) Examining (for files) backup set with nonce=ca3d0da68ac4, datestamp=1457917341 (Mar 14 2016 01:02:21)
+1224.276 (0) This backup set is the backup set just made, so will not be deleted, despite being over the retain limit.
+1224.306 (0) This backup set is the backup set just made, so will not be deleted, despite being over the retain limit.
+1224.462 (0) This backup set is the backup set just made, so will not be deleted, despite being over the retain limit.
+1224.462 (0) This backup set is the backup set just made, so will not be deleted, despite being over the retain limit.
+1224.463 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+1224.465 (0) Examining (for files) backup set with nonce=d4877d43d004, datestamp=1456292313 (Feb 24 2016 05:38:33)
+1224.685 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+1224.901 (0) Examining (for files) backup set with nonce=cfc0d1bf1425, datestamp=1455687343 (Feb 17 2016 05:35:43)
+1225.122 (0) plugins: over retain limit (2); will delete this file entity
+1225.341 (0) themes: over retain limit (2); will delete this file entity
+1225.559 (0) uploads: over retain limit (2); will delete this file entity
+1225.778 (0) others: over retain limit (2); will delete this file entity
+1225.996 (0) Delete file: backup_2016-02-17-0535_Yempo_cfc0d1bf1425-plugins.zip, service=dropbox
+1226.215 (0) Delete file: backup_2016-02-17-0535_Yempo_cfc0d1bf1425-themes.zip, service=dropbox
+1226.434 (0) Delete file: backup_2016-02-17-0535_Yempo_cfc0d1bf1425-uploads.zip, service=dropbox
+1226.653 (0) Delete file: backup_2016-02-17-0535_Yempo_cfc0d1bf1425-others.zip, service=dropbox
+1226.871 (0) Dropbox: request deletion: backup_2016-02-17-0535_Yempo_cfc0d1bf1425-plugins.zip
+1228.137 (0) Dropbox error: User has removed their App folder. (line: 177, file: /home/mymy2018/public_yemposolutions/wp-content/plugins/updraftplus/includes/Dropbox/OAuth/Consumer/Curl.php)
+1228.571 (0) The time we have been running (1228.1) is approaching the resumption interval (1255) - increasing resumption interval to 1259
+1228.799 (0) This backup set is now empty; will remove from history
+1229.021 (0) Deleting log file (log.cfc0d1bf1425.txt)
+1229.329 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+1229.938 (0) Resume backup (ca3d0da68ac4, 0): finish run
+1230.377 (0) Decremented the semaphore (fd) by 1
+1230.602 (0) Semaphore (fd) unlocked
+1230.817 (0) There were errors in the uploads, so the 'resume' event is remaining scheduled
+1231.470 (0) Rescheduling resumption 1: moving to 120 seconds from now (1457918692)
+1231.908 (0) No email will/can be sent - the user has not configured an email address.
+1232.134 (0) The backup has not finished; a resumption is scheduled
+1461.643 (1) Opened log file at time: Mon, 14 Mar 2016 01:26:43 +0000 on http://www.yempo-solutions.com
+1461.646 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.11.27 WP: 4.4.2 PHP: 5.3.28 (Linux cp12.ezyreg.com 2.6.32-458.6.2.lve1.2.28.el6.x86_64 #1 SMP Wed Jul 3 13:39:48 EEST 2013 x86_64) MySQL: 5.5.47 Server: Apache/2.2.24 (Unix) mod_ssl/2.2.24 OpenSSL/1.0.0-fips mod_auth_passthrough/2.1 mod_bwlimited/1.4 mod_perl/2.0.6 Perl/v5.10.1 safe_mode: 0 max_execution_time: 900 memory_limit: 128M (used: 69.9M | 70.5M) multisite: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+1461.938 (1) Free space on disk containing Updraft's temporary directory: 266080.9 Mb
+1461.944 (1) Backup run: resumption=1, nonce=ca3d0da68ac4, begun at=1457917341 (1462s ago), job type=backup, previous check-in=1228.1s
+1461.949 (1) Scheduling a resumption (2) after 1259 seconds (1457920062) in case this run gets aborted
+1461.964 (1) Checking if we have a zip executable available
+1461.967 (1) Zip engine: found/will use a binary zip: /usr/bin/zip
+1461.969 (1) Creation of backups of directories: already finished
+1461.972 (1) Saving backup status to database (elements: 8)
+1461.977 (1) Database dump (WordPress DB): Creation was completed already
+1462.033 (1) backup_2016-03-14-0102_Yempo_ca3d0da68ac4-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+1462.035 (1) backup_2016-03-14-0102_Yempo_ca3d0da68ac4-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+1462.036 (1) backup_2016-03-14-0102_Yempo_ca3d0da68ac4-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+1462.038 (1) backup_2016-03-14-0102_Yempo_ca3d0da68ac4-others.zip: others: This file has not yet been successfully uploaded: will queue
+1462.040 (1) backup_2016-03-14-0102_Yempo_ca3d0da68ac4-db.gz: db: This file has not yet been successfully uploaded: will queue
+1462.041 (1) Saving backup history. Total backup size: 97.4 Mb
+1462.045 (1) Requesting upload of the files that have not yet been successfully uploaded (5)
+1462.049 (1) Cloud backup selection (1/1): dropbox (last)
+1462.052 (1) Beginning dispatch of backup to remote (dropbox)
+1462.054 (1) Dropbox: begin cloud upload
+1462.059 (1) Dropbox: access gained
+1463.111 (1) Dropbox error: exception (Dropbox_Exception) occurred whilst getting account info: User has removed their App folder.
+1463.114 (1) Dropbox: Attempt to upload: backup_2016-03-14-0102_Yempo_ca3d0da68ac4-plugins.zip to: backup_2016-03-14-0102_Yempo_ca3d0da68ac4-plugins.zip
+1468.178 (1) Dropbox chunked upload exception (Dropbox_Exception): User has removed their App folder. (line: 177, file: /home/mymy2018/public_yemposolutions/wp-content/plugins/updraftplus/includes/Dropbox/OAuth/Consumer/Curl.php)
+1468.181 (1) Dropbox error: User has removed their App folder.
+1468.182 (1) An error condition has occurred for the first time during this job
+1469.240 (1) Dropbox error: exception (Dropbox_Exception) occurred whilst getting account info: User has removed their App folder.
+1469.242 (1) Dropbox: Attempt to upload: backup_2016-03-14-0102_Yempo_ca3d0da68ac4-themes.zip to: backup_2016-03-14-0102_Yempo_ca3d0da68ac4-themes.zip
+1474.174 (1) Dropbox chunked upload exception (Dropbox_Exception): User has removed their App folder. (line: 177, file: /home/mymy2018/public_yemposolutions/wp-content/plugins/updraftplus/includes/Dropbox/OAuth/Consumer/Curl.php)
+1474.177 (1) Dropbox error: User has removed their App folder.
+1475.223 (1) Dropbox error: exception (Dropbox_Exception) occurred whilst getting account info: User has removed their App folder.
+1475.226 (1) Dropbox: Attempt to upload: backup_2016-03-14-0102_Yempo_ca3d0da68ac4-uploads.zip to: backup_2016-03-14-0102_Yempo_ca3d0da68ac4-uploads.zip
+1480.870 (1) Dropbox chunked upload exception (Dropbox_Exception): User has removed their App folder. (line: 177, file: /home/mymy2018/public_yemposolutions/wp-content/plugins/updraftplus/includes/Dropbox/OAuth/Consumer/Curl.php)
+1480.874 (1) Dropbox error: User has removed their App folder.
+1481.963 (1) Dropbox error: exception (Dropbox_Exception) occurred whilst getting account info: User has removed their App folder.
+1481.968 (1) Dropbox: Attempt to upload: backup_2016-03-14-0102_Yempo_ca3d0da68ac4-others.zip to: backup_2016-03-14-0102_Yempo_ca3d0da68ac4-others.zip
+1483.428 (1) Dropbox chunked upload exception (Dropbox_Exception): User has removed their App folder. (line: 177, file: /home/mymy2018/public_yemposolutions/wp-content/plugins/updraftplus/includes/Dropbox/OAuth/Consumer/Curl.php)
+1483.432 (1) Dropbox error: User has removed their App folder.
+1484.489 (1) Dropbox error: exception (Dropbox_Exception) occurred whilst getting account info: User has removed their App folder.
+1484.491 (1) Dropbox: Attempt to upload: backup_2016-03-14-0102_Yempo_ca3d0da68ac4-db.gz to: backup_2016-03-14-0102_Yempo_ca3d0da68ac4-db.gz
+1489.179 (1) Dropbox chunked upload exception (Dropbox_Exception): User has removed their App folder. (line: 177, file: /home/mymy2018/public_yemposolutions/wp-content/plugins/updraftplus/includes/Dropbox/OAuth/Consumer/Curl.php)
+1489.182 (1) Dropbox error: User has removed their App folder.
+1489.187 (1) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+1489.191 (1) Number of backup sets in history: 2; groups (db): 1
+1489.193 (1) Examining (for databases) backup set with group_id=0, nonce=ca3d0da68ac4, datestamp=1457917341 (Mar 14 2016 01:02:21)
+1489.196 (1) This backup set is the backup set just made, so will not be deleted.
+1489.198 (1) Examining (for databases) backup set with group_id=0, nonce=d4877d43d004, datestamp=1456292313 (Feb 24 2016 05:38:33)
+1489.200 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+1489.201 (1) Number of backup sets in history: 2; groups (files): 1
+1489.203 (1) Examining (for files) backup set with nonce=ca3d0da68ac4, datestamp=1457917341 (Mar 14 2016 01:02:21)
+1489.205 (1) This backup set is the backup set just made, so will not be deleted, despite being over the retain limit.
+1489.206 (1) This backup set is the backup set just made, so will not be deleted, despite being over the retain limit.
+1489.207 (1) This backup set is the backup set just made, so will not be deleted, despite being over the retain limit.
+1489.207 (1) This backup set is the backup set just made, so will not be deleted, despite being over the retain limit.
+1489.207 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+1489.209 (1) Examining (for files) backup set with nonce=d4877d43d004, datestamp=1456292313 (Feb 24 2016 05:38:33)
+1489.211 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+1489.213 (1) Retain: saving new backup history (sets now: 2) and finishing retain operation
+1489.218 (1) Resume backup (ca3d0da68ac4, 1): finish run
+1489.220 (1) There were errors in the uploads, so the 'resume' event is remaining scheduled
+1489.224 (1) No email will/can be sent - the user has not configured an email address.
+1489.226 (1) The backup has not finished; a resumption is scheduled
+2882.676 (2) Opened log file at time: Mon, 14 Mar 2016 01:50:24 +0000 on http://www.yempo-solutions.com
+2882.726 (2) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.11.27 WP: 4.4.2 PHP: 5.3.28 (Linux cp12.ezyreg.com 2.6.32-458.6.2.lve1.2.28.el6.x86_64 #1 SMP Wed Jul 3 13:39:48 EEST 2013 x86_64) MySQL: 5.5.47 Server: Apache/2.2.24 (Unix) mod_ssl/2.2.24 OpenSSL/1.0.0-fips mod_auth_passthrough/2.1 mod_bwlimited/1.4 mod_perl/2.0.6 Perl/v5.10.1 safe_mode: 0 max_execution_time: 900 memory_limit: 128M (used: 69.9M | 70.5M) multisite: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+2882.954 (2) Free space on disk containing Updraft's temporary directory: 266071.6 Mb
+2882.960 (2) Backup run: resumption=2, nonce=ca3d0da68ac4, begun at=1457917341 (2883s ago), job type=backup
+2882.964 (2) Scheduling a resumption (3) after 1259 seconds (1457921483) in case this run gets aborted
+2882.976 (2) Checking if we have a zip executable available
+2883.027 (2) Zip engine: found/will use a binary zip: /usr/bin/zip
+2883.029 (2) Creation of backups of directories: already finished
+2883.030 (2) Saving backup status to database (elements: 8)
+2883.036 (2) Database dump (WordPress DB): Creation was completed already
+2883.046 (2) backup_2016-03-14-0102_Yempo_ca3d0da68ac4-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+2883.048 (2) backup_2016-03-14-0102_Yempo_ca3d0da68ac4-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+2883.050 (2) backup_2016-03-14-0102_Yempo_ca3d0da68ac4-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+2883.052 (2) backup_2016-03-14-0102_Yempo_ca3d0da68ac4-others.zip: others: This file has not yet been successfully uploaded: will queue
+2883.054 (2) backup_2016-03-14-0102_Yempo_ca3d0da68ac4-db.gz: db: This file has not yet been successfully uploaded: will queue
+2883.056 (2) Saving backup history. Total backup size: 97.4 Mb
+2883.061 (2) Requesting upload of the files that have not yet been successfully uploaded (5)
+2883.066 (2) Cloud backup selection (1/1): dropbox (last)
+2883.069 (2) Beginning dispatch of backup to remote (dropbox)
+2883.071 (2) Dropbox: begin cloud upload
+2883.076 (2) Dropbox: access gained
+2885.665 (2) Dropbox error: exception (Dropbox_Exception) occurred whilst getting account info: User has removed their App folder.
+2885.667 (2) Dropbox: Attempt to upload: backup_2016-03-14-0102_Yempo_ca3d0da68ac4-plugins.zip to: backup_2016-03-14-0102_Yempo_ca3d0da68ac4-plugins.zip
+2892.200 (2) Dropbox chunked upload exception (Dropbox_Exception): User has removed their App folder. (line: 177, file: /home/mymy2018/public_yemposolutions/wp-content/plugins/updraftplus/includes/Dropbox/OAuth/Consumer/Curl.php)
+2892.203 (2) Dropbox error: User has removed their App folder.
+2892.205 (2) An error condition has occurred for the first time during this job
+2893.265 (2) Dropbox error: exception (Dropbox_Exception) occurred whilst getting account info: User has removed their App folder.
+2893.267 (2) Dropbox: Attempt to upload: backup_2016-03-14-0102_Yempo_ca3d0da68ac4-themes.zip to: backup_2016-03-14-0102_Yempo_ca3d0da68ac4-themes.zip
+2898.982 (2) Dropbox chunked upload exception (Dropbox_Exception): User has removed their App folder. (line: 177, file: /home/mymy2018/public_yemposolutions/wp-content/plugins/updraftplus/includes/Dropbox/OAuth/Consumer/Curl.php)
+2898.984 (2) Dropbox error: User has removed their App folder.
+2900.048 (2) Dropbox error: exception (Dropbox_Exception) occurred whilst getting account info: User has removed their App folder.
+2900.051 (2) Dropbox: Attempt to upload: backup_2016-03-14-0102_Yempo_ca3d0da68ac4-uploads.zip to: backup_2016-03-14-0102_Yempo_ca3d0da68ac4-uploads.zip
+2909.066 (2) Dropbox chunked upload exception (Dropbox_Exception): User has removed their App folder. (line: 177, file: /home/mymy2018/public_yemposolutions/wp-content/plugins/updraftplus/includes/Dropbox/OAuth/Consumer/Curl.php)
+2909.068 (2) Dropbox error: User has removed their App folder.
+2910.130 (2) Dropbox error: exception (Dropbox_Exception) occurred whilst getting account info: User has removed their App folder.
+2910.133 (2) Dropbox: Attempt to upload: backup_2016-03-14-0102_Yempo_ca3d0da68ac4-others.zip to: backup_2016-03-14-0102_Yempo_ca3d0da68ac4-others.zip
+2911.196 (2) Dropbox chunked upload exception (Dropbox_Exception): User has removed their App folder. (line: 177, file: /home/mymy2018/public_yemposolutions/wp-content/plugins/updraftplus/includes/Dropbox/OAuth/Consumer/Curl.php)
+2911.198 (2) Dropbox error: User has removed their App folder.
+2912.256 (2) Dropbox error: exception (Dropbox_Exception) occurred whilst getting account info: User has removed their App folder.
+2912.259 (2) Dropbox: Attempt to upload: backup_2016-03-14-0102_Yempo_ca3d0da68ac4-db.gz to: backup_2016-03-14-0102_Yempo_ca3d0da68ac4-db.gz
+2917.941 (2) Dropbox chunked upload exception (Dropbox_Exception): User has removed their App folder. (line: 177, file: /home/mymy2018/public_yemposolutions/wp-content/plugins/updraftplus/includes/Dropbox/OAuth/Consumer/Curl.php)
+2917.944 (2) Dropbox error: User has removed their App folder.
+2917.948 (2) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+2917.950 (2) Number of backup sets in history: 2; groups (db): 1
+2917.952 (2) Examining (for databases) backup set with group_id=0, nonce=ca3d0da68ac4, datestamp=1457917341 (Mar 14 2016 01:02:21)
+2917.953 (2) This backup set is the backup set just made, so will not be deleted.
+2917.955 (2) Examining (for databases) backup set with group_id=0, nonce=d4877d43d004, datestamp=1456292313 (Feb 24 2016 05:38:33)
+2917.957 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+2917.959 (2) Number of backup sets in history: 2; groups (files): 1
+2917.960 (2) Examining (for files) backup set with nonce=ca3d0da68ac4, datestamp=1457917341 (Mar 14 2016 01:02:21)
+2917.962 (2) This backup set is the backup set just made, so will not be deleted, despite being over the retain limit.
+2917.964 (2) This backup set is the backup set just made, so will not be deleted, despite being over the retain limit.
+2917.964 (2) This backup set is the backup set just made, so will not be deleted, despite being over the retain limit.
+2917.964 (2) This backup set is the backup set just made, so will not be deleted, despite being over the retain limit.
+2917.965 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+2917.966 (2) Examining (for files) backup set with nonce=d4877d43d004, datestamp=1456292313 (Feb 24 2016 05:38:33)
+2917.968 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+2917.970 (2) Retain: saving new backup history (sets now: 2) and finishing retain operation
+2917.974 (2) Resume backup (ca3d0da68ac4, 2): finish run
+2917.977 (2) There were errors in the uploads, so the 'resume' event is remaining scheduled
+2917.981 (2) No email will/can be sent - the user has not configured an email address.
+2917.983 (2) The backup has not finished; a resumption is scheduled
+434810.023 (3) Opened log file at time: Sat, 19 Mar 2016 01:49:11 +0000 on http://www.yempo-solutions.com
+434810.025 (3) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.11.27 WP: 4.4.2 PHP: 5.3.28 (Linux cp12.ezyreg.com 2.6.32-458.6.2.lve1.2.28.el6.x86_64 #1 SMP Wed Jul 3 13:39:48 EEST 2013 x86_64) MySQL: 5.5.47 Server: Apache/2.2.24 (Unix) mod_ssl/2.2.24 OpenSSL/1.0.0-fips mod_auth_passthrough/2.1 mod_bwlimited/1.4 mod_perl/2.0.6 Perl/v5.10.1 safe_mode: 0 max_execution_time: 900 memory_limit: 128M (used: 69.9M | 70.5M) multisite: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+434810.175 (3) Free space on disk containing Updraft's temporary directory: 266087.9 Mb / Free disk space in account: 4036.5 Mb (21.2 % used)
+434810.228 (3) This backup task (ca3d0da68ac4) is either complete or began over 2 days ago: ending (1458352151.3278, 1457917341) (existing jobdata keys: resume_interval, job_type, jobstatus, backup_time, job_time_ms, service, split_every, maxzipbatch, job_file_entities, option_cache, uploaded_lastreset, one_shot, followsups_allowed, backup_database, backup_files, runs_started, current_resumption, binzip, filecreating_substatus, files_enumerated_at, run_times, useful_checkin, sha1-plugins0, sha1-themes0, sha1-uploads0, sha1-others0, backup_files_array, binsqldump, dbcreating_substatus, warnings, sha1-db0, uploading_substatus, prune)

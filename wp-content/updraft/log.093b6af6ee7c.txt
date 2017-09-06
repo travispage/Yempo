@@ -1,0 +1,626 @@
+0000.000 (0) Opened log file at time: Wed, 30 Aug 2017 05:32:46 +0000 on http://www.yempo-solutions.com
+0000.012 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.13.4 WP: 4.7.5 PHP: 5.6.30 (cgi-fcgi, Linux gator3219.hostgator.com 3.12.74-215.ELK6.x86_64 #1 SMP Fri Jun 23 00:36:20 CDT 2017 x86_64) MySQL: 5.5.51 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 46.7M | 47.5M) multisite: N openssl: OpenSSL 1.0.1e-fips 11 Feb 2013 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.360 (0) Free space on disk containing Updraft's temporary directory: 270255.9 MB
+0000.372 (0) Tasks: Backup files: 1 (schedule: weekly) Backup DB:  (schedule: weekly)
+0000.374 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.430 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1503466877, seconds_ago=604290)
+0000.434 (0) Set semaphore last lock (fd) time to 2017-08-30 05:32:47
+0000.436 (0) Semaphore lock (fd) complete
+0000.467 (0) Backup run: resumption=0, nonce=093b6af6ee7c, begun at=1504071166 (1s ago), job type=backup
+0000.471 (0) Scheduling a resumption (1) after 532 seconds (1504071699) in case this run gets aborted
+0000.498 (0) Checking if we have a zip executable available
+0000.500 (0) Testing: /usr/bin/zip
+0000.525 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.528 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.530 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.532 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.534 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.547 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.551 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.584 (0) Working binary zip found: /usr/bin/zip
+0000.589 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.591 (0) Creation of backups of directories: beginning
+0000.597 (0) Beginning creation of dump of plugins (split every: 500 MB)
+0002.562 (0) Total entities for the zip file: 1046 directories, 8057 files (0 skipped as non-modified), 92.9 MB
+0002.571 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0002.577 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0002.584 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0002.592 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0002.599 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0002.602 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.2 MB, 8057 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0006.000 (0) backup_2017-08-30-0532_Yempo_093b6af6ee7c-plugins.zip.tmp: size is now: 3.10 MB
+0006.011 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-plugins.zip.tmp: 600 files added (on-disk size: 3145.4 KB)
+0006.018 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-plugins.zip.tmp: 700 files added (on-disk size: 3145.4 KB)
+0006.027 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-plugins.zip.tmp: 800 files added (on-disk size: 3145.4 KB)
+0006.034 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-plugins.zip.tmp: 900 files added (on-disk size: 3145.4 KB)
+0006.041 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-plugins.zip.tmp: 1000 files added (on-disk size: 3145.4 KB)
+0006.044 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.3 MB, 8057 files batched, 501 (1002) added so far); re-opening (prior size: 3145.4 KB)
+0011.432 (0) backup_2017-08-30-0532_Yempo_093b6af6ee7c-plugins.zip.tmp: size is now: 6.50 MB
+0011.442 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-plugins.zip.tmp: 1100 files added (on-disk size: 6696.1 KB)
+0011.449 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-plugins.zip.tmp: 1200 files added (on-disk size: 6696.1 KB)
+0011.455 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-plugins.zip.tmp: 1300 files added (on-disk size: 6696.1 KB)
+0011.462 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-plugins.zip.tmp: 1400 files added (on-disk size: 6696.1 KB)
+0011.469 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-plugins.zip.tmp: 1500 files added (on-disk size: 6696.1 KB)
+0011.472 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.5 MB, 8057 files batched, 501 (1503) added so far); re-opening (prior size: 6696.1 KB)
+0015.979 (0) backup_2017-08-30-0532_Yempo_093b6af6ee7c-plugins.zip.tmp: size is now: 8.30 MB
+0015.993 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-plugins.zip.tmp: 1600 files added (on-disk size: 8479.3 KB)
+0016.002 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-plugins.zip.tmp: 1700 files added (on-disk size: 8479.3 KB)
+0016.011 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-plugins.zip.tmp: 1800 files added (on-disk size: 8479.3 KB)
+0016.019 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-plugins.zip.tmp: 1900 files added (on-disk size: 8479.3 KB)
+0016.027 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-plugins.zip.tmp: 2000 files added (on-disk size: 8479.3 KB)
+0016.030 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.3 MB, 8057 files batched, 501 (2004) added so far); re-opening (prior size: 8479.3 KB)
+0021.010 (0) backup_2017-08-30-0532_Yempo_093b6af6ee7c-plugins.zip.tmp: size is now: 10.30 MB
+0021.021 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-plugins.zip.tmp: 2100 files added (on-disk size: 10564.1 KB)
+0021.029 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-plugins.zip.tmp: 2200 files added (on-disk size: 10564.1 KB)
+0021.038 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-plugins.zip.tmp: 2300 files added (on-disk size: 10564.1 KB)
+0021.044 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-plugins.zip.tmp: 2400 files added (on-disk size: 10564.1 KB)
+0021.051 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-plugins.zip.tmp: 2500 files added (on-disk size: 10564.1 KB)
+0021.054 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2 MB, 8057 files batched, 501 (2505) added so far); re-opening (prior size: 10564.1 KB)
+0027.495 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-plugins.zip.tmp: 2600 files added (on-disk size: 11260.6 KB)
+0027.503 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-plugins.zip.tmp: 2700 files added (on-disk size: 11260.6 KB)
+0027.511 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-plugins.zip.tmp: 2800 files added (on-disk size: 11260.6 KB)
+0027.518 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-plugins.zip.tmp: 2900 files added (on-disk size: 11260.6 KB)
+0027.526 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-plugins.zip.tmp: 3000 files added (on-disk size: 11260.6 KB)
+0027.529 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.5 MB, 8057 files batched, 501 (3006) added so far); re-opening (prior size: 11260.6 KB)
+0035.706 (0) backup_2017-08-30-0532_Yempo_093b6af6ee7c-plugins.zip.tmp: size is now: 13.80 MB
+0035.716 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-plugins.zip.tmp: 3100 files added (on-disk size: 14119.5 KB)
+0035.723 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-plugins.zip.tmp: 3200 files added (on-disk size: 14119.5 KB)
+0035.730 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-plugins.zip.tmp: 3300 files added (on-disk size: 14119.5 KB)
+0035.736 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-plugins.zip.tmp: 3400 files added (on-disk size: 14119.5 KB)
+0035.743 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-plugins.zip.tmp: 3500 files added (on-disk size: 14119.5 KB)
+0035.746 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.8 MB, 8057 files batched, 501 (3507) added so far); re-opening (prior size: 14119.5 KB)
+0040.983 (0) backup_2017-08-30-0532_Yempo_093b6af6ee7c-plugins.zip.tmp: size is now: 17.90 MB
+0040.996 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-plugins.zip.tmp: 3600 files added (on-disk size: 18336 KB)
+0041.004 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-plugins.zip.tmp: 3700 files added (on-disk size: 18336 KB)
+0041.011 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-plugins.zip.tmp: 3800 files added (on-disk size: 18336 KB)
+0041.018 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-plugins.zip.tmp: 3900 files added (on-disk size: 18336 KB)
+0041.024 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-plugins.zip.tmp: 4000 files added (on-disk size: 18336 KB)
+0041.028 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (9 MB, 8057 files batched, 501 (4008) added so far); re-opening (prior size: 18336 KB)
+0046.696 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-plugins.zip.tmp: 4100 files added (on-disk size: 21728.6 KB)
+0046.704 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-plugins.zip.tmp: 4200 files added (on-disk size: 21728.6 KB)
+0046.712 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-plugins.zip.tmp: 4300 files added (on-disk size: 21728.6 KB)
+0046.718 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-plugins.zip.tmp: 4400 files added (on-disk size: 21728.6 KB)
+0046.725 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-plugins.zip.tmp: 4500 files added (on-disk size: 21728.6 KB)
+0046.728 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.2 MB, 8057 files batched, 501 (4509) added so far); re-opening (prior size: 21728.6 KB)
+0050.121 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-plugins.zip.tmp: 4600 files added (on-disk size: 22943.5 KB)
+0050.130 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-plugins.zip.tmp: 4700 files added (on-disk size: 22943.5 KB)
+0050.137 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-plugins.zip.tmp: 4800 files added (on-disk size: 22943.5 KB)
+0050.145 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-plugins.zip.tmp: 4900 files added (on-disk size: 22943.5 KB)
+0050.152 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-plugins.zip.tmp: 5000 files added (on-disk size: 22943.5 KB)
+0050.156 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.6 MB, 8057 files batched, 501 (5010) added so far); re-opening (prior size: 22943.5 KB)
+0055.435 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-plugins.zip.tmp: 5100 files added (on-disk size: 25415.8 KB)
+0055.442 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-plugins.zip.tmp: 5200 files added (on-disk size: 25415.8 KB)
+0055.449 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-plugins.zip.tmp: 5300 files added (on-disk size: 25415.8 KB)
+0055.456 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-plugins.zip.tmp: 5400 files added (on-disk size: 25415.8 KB)
+0055.462 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-plugins.zip.tmp: 5500 files added (on-disk size: 25415.8 KB)
+0055.465 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (14.1 MB, 8057 files batched, 501 (5511) added so far); re-opening (prior size: 25415.8 KB)
+0060.973 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-plugins.zip.tmp: 5600 files added (on-disk size: 29880 KB)
+0060.980 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-plugins.zip.tmp: 5700 files added (on-disk size: 29880 KB)
+0060.986 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-plugins.zip.tmp: 5800 files added (on-disk size: 29880 KB)
+0060.992 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-plugins.zip.tmp: 5900 files added (on-disk size: 29880 KB)
+0060.999 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-plugins.zip.tmp: 6000 files added (on-disk size: 29880 KB)
+0061.002 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.6 MB, 8057 files batched, 501 (6012) added so far); re-opening (prior size: 29880 KB)
+0065.372 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-plugins.zip.tmp: 6100 files added (on-disk size: 31799.8 KB)
+0065.380 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-plugins.zip.tmp: 6200 files added (on-disk size: 31799.8 KB)
+0065.386 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-plugins.zip.tmp: 6300 files added (on-disk size: 31799.8 KB)
+0065.393 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-plugins.zip.tmp: 6400 files added (on-disk size: 31799.8 KB)
+0065.401 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-plugins.zip.tmp: 6500 files added (on-disk size: 31799.8 KB)
+0065.404 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.8 MB, 8057 files batched, 501 (6513) added so far); re-opening (prior size: 31799.8 KB)
+0071.557 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-plugins.zip.tmp: 6600 files added (on-disk size: 32542.8 KB)
+0071.566 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-plugins.zip.tmp: 6700 files added (on-disk size: 32542.8 KB)
+0071.576 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-plugins.zip.tmp: 6800 files added (on-disk size: 32542.8 KB)
+0071.583 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-plugins.zip.tmp: 6900 files added (on-disk size: 32542.8 KB)
+0071.589 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-plugins.zip.tmp: 7000 files added (on-disk size: 32542.8 KB)
+0071.593 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (8.3 MB, 8057 files batched, 501 (7014) added so far); re-opening (prior size: 32542.8 KB)
+0075.279 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-plugins.zip.tmp: 7100 files added (on-disk size: 34631.2 KB)
+0075.288 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-plugins.zip.tmp: 7200 files added (on-disk size: 34631.2 KB)
+0075.295 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-plugins.zip.tmp: 7300 files added (on-disk size: 34631.2 KB)
+0075.303 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-plugins.zip.tmp: 7400 files added (on-disk size: 34631.2 KB)
+0075.311 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-plugins.zip.tmp: 7500 files added (on-disk size: 34631.2 KB)
+0075.315 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.8 MB, 8057 files batched, 501 (7515) added so far); re-opening (prior size: 34631.2 KB)
+0079.931 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-plugins.zip.tmp: 7600 files added (on-disk size: 35942.6 KB)
+0079.939 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-plugins.zip.tmp: 7700 files added (on-disk size: 35942.6 KB)
+0079.945 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-plugins.zip.tmp: 7800 files added (on-disk size: 35942.6 KB)
+0079.952 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-plugins.zip.tmp: 7900 files added (on-disk size: 35942.6 KB)
+0079.959 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-plugins.zip.tmp: 8000 files added (on-disk size: 35942.6 KB)
+0079.962 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4 MB, 8057 files batched, 501 (8016) added so far); re-opening (prior size: 35942.6 KB)
+0084.607 (0) Created plugins zip (0) - 37447 KB in 83.8 s (446.9 KB/s) (sha1: 951c48c8fb412c9e0ac06493918820aa348e2604, sha256: 45969c55434e1c5789d3f4e1705597edab271e57db9f80a16d318917d8b16f04)
+0084.614 (0) Beginning creation of dump of themes (split every: 500 MB)
+0085.034 (0) Total entities for the zip file: 88 directories, 750 files (0 skipped as non-modified), 9.9 MB
+0085.043 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0085.049 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0085.055 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0085.062 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0085.068 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0085.072 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7 MB, 750 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0087.043 (0) backup_2017-08-30-0532_Yempo_093b6af6ee7c-themes.zip.tmp: size is now: 4.60 MB
+0087.053 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-themes.zip.tmp: 600 files added (on-disk size: 4696.4 KB)
+0087.062 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-themes.zip.tmp: 700 files added (on-disk size: 4696.4 KB)
+0088.050 (0) Created themes zip (0) - 5550.1 KB in 3.2 s (1734.6 KB/s) (sha1: 7a3d1364436bc43e0c127dd35e935329d78f3a71, sha256: 2bfba1a49c720358b69d3527b3a688c55c9ae9dd293e2120b37681ab71f2f3ed)
+0088.058 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone
+0088.061 (0) Looking for candidates to back up in: /home3/yempo/public_html/wp-content/uploads
+0088.064 (0) finding files: ithemes-security: adding to list (1)
+0088.067 (0) finding files: 2017: adding to list (2)
+0088.070 (0) finding files: 2014: adding to list (3)
+0088.072 (0) finding files: 2010: adding to list (4)
+0088.075 (0) finding files: 2012: adding to list (5)
+0088.078 (0) finding files: 2013: adding to list (6)
+0088.081 (0) finding files: 2011: adding to list (7)
+0088.083 (0) finding files: 2009: adding to list (8)
+0088.086 (0) finding files: landing-pages: adding to list (9)
+0088.089 (0) finding files: 2016: adding to list (10)
+0088.091 (0) finding files: 2015: adding to list (11)
+0088.094 (0) finding files: smuzformfiles-cNfxMqVvC6N94bQoTeKseN47Z: adding to list (12)
+0088.096 (0) finding files: motopress-content-editor: adding to list (13)
+0088.099 (0) Beginning creation of dump of uploads (split every: 500 MB)
+0088.668 (0) Total entities for the zip file: 55 directories, 3679 files (0 skipped as non-modified), 246.5 MB
+0088.679 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0088.687 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0088.695 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25 MB, 3679 files batched, 278 (278) added so far); re-opening (prior size: 0 KB)
+0092.295 (0) backup_2017-08-30-0532_Yempo_093b6af6ee7c-uploads.zip.tmp: size is now: 22.70 MB
+0092.303 (0) A useful amount of data was added after this amount of zip processing: 5 s (normalised: 5 s, rate: 5149.6 KB/s)
+0092.308 (0) Performance is good - will increase the amount of data we attempt to batch (time=4.98113489151, normalised_time=4.9712959946139, max_time=-1, data points known=0, old_max_bytes=26214400, new_max_bytes=31638912)
+0092.314 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-uploads.zip.tmp: 300 files added (on-disk size: 23278 KB)
+0092.322 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-uploads.zip.tmp: 400 files added (on-disk size: 23278 KB)
+0092.329 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-uploads.zip.tmp: 500 files added (on-disk size: 23278 KB)
+0092.336 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-uploads.zip.tmp: 600 files added (on-disk size: 23278 KB)
+0092.340 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 30.2 MB added on this batch (30.5 MB, 3679 files batched, 341 (619) added so far); re-opening (prior size: 23278 KB)
+0097.106 (0) backup_2017-08-30-0532_Yempo_093b6af6ee7c-uploads.zip.tmp: size is now: 49.30 MB
+0097.114 (0) A useful amount of data was added after this amount of zip processing: 5.8 s (normalised: 5.7 s, rate: 5394.1 KB/s)
+0097.118 (0) Performance is good - will increase the amount of data we attempt to batch (time=5.7921180725098, normalised_time=5.7280330465252, max_time=-1, data points known=0, old_max_bytes=31638912, new_max_bytes=33141127)
+0097.126 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-uploads.zip.tmp: 700 files added (on-disk size: 50478.8 KB)
+0097.132 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-uploads.zip.tmp: 800 files added (on-disk size: 50478.8 KB)
+0097.139 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-uploads.zip.tmp: 900 files added (on-disk size: 50478.8 KB)
+0097.147 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-uploads.zip.tmp: 1000 files added (on-disk size: 50478.8 KB)
+0097.151 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 31.6 MB added on this batch (32.3 MB, 3679 files batched, 393 (1012) added so far); re-opening (prior size: 50478.8 KB)
+0101.108 (0) backup_2017-08-30-0532_Yempo_093b6af6ee7c-uploads.zip.tmp: size is now: 79.70 MB
+0101.115 (0) A useful amount of data was added after this amount of zip processing: 4.8 s (normalised: 4.7 s, rate: 6907.6 KB/s)
+0101.120 (0) Performance is good - will increase the amount of data we attempt to batch (time=4.7932739257812, normalised_time=4.6852977433462, max_time=-1, data points known=0, old_max_bytes=33141127, new_max_bytes=42440581)
+0101.127 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-uploads.zip.tmp: 1100 files added (on-disk size: 81640.5 KB)
+0101.133 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-uploads.zip.tmp: 1200 files added (on-disk size: 81640.5 KB)
+0101.140 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-uploads.zip.tmp: 1300 files added (on-disk size: 81640.5 KB)
+0101.146 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-uploads.zip.tmp: 1400 files added (on-disk size: 81640.5 KB)
+0101.152 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-uploads.zip.tmp: 1500 files added (on-disk size: 81640.5 KB)
+0101.155 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (26.8 MB, 3679 files batched, 501 (1513) added so far); re-opening (prior size: 81640.5 KB)
+0105.614 (0) backup_2017-08-30-0532_Yempo_093b6af6ee7c-uploads.zip.tmp: size is now: 105.40 MB
+0105.625 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-uploads.zip.tmp: 1600 files added (on-disk size: 107948.5 KB)
+0105.631 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-uploads.zip.tmp: 1700 files added (on-disk size: 107948.5 KB)
+0105.638 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-uploads.zip.tmp: 1800 files added (on-disk size: 107948.5 KB)
+0105.645 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-uploads.zip.tmp: 1900 files added (on-disk size: 107948.5 KB)
+0105.651 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-uploads.zip.tmp: 2000 files added (on-disk size: 107948.5 KB)
+0105.654 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (24.9 MB, 3679 files batched, 501 (2014) added so far); re-opening (prior size: 107948.5 KB)
+0108.237 (0) backup_2017-08-30-0532_Yempo_093b6af6ee7c-uploads.zip.tmp: size is now: 129.00 MB
+0108.248 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-uploads.zip.tmp: 2100 files added (on-disk size: 132068.1 KB)
+0108.255 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-uploads.zip.tmp: 2200 files added (on-disk size: 132068.1 KB)
+0108.262 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-uploads.zip.tmp: 2300 files added (on-disk size: 132068.1 KB)
+0108.268 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-uploads.zip.tmp: 2400 files added (on-disk size: 132068.1 KB)
+0108.275 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-uploads.zip.tmp: 2500 files added (on-disk size: 132068.1 KB)
+0108.278 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (26.8 MB, 3679 files batched, 501 (2515) added so far); re-opening (prior size: 132068.1 KB)
+0113.300 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-uploads.zip.tmp: 2600 files added (on-disk size: 157686.3 KB)
+0113.308 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-uploads.zip.tmp: 2700 files added (on-disk size: 157686.3 KB)
+0113.315 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-uploads.zip.tmp: 2800 files added (on-disk size: 157686.3 KB)
+0113.323 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-uploads.zip.tmp: 2900 files added (on-disk size: 157686.3 KB)
+0113.331 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-uploads.zip.tmp: 3000 files added (on-disk size: 157686.3 KB)
+0113.335 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (30.1 MB, 3679 files batched, 501 (3016) added so far); re-opening (prior size: 157686.3 KB)
+0117.962 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-uploads.zip.tmp: 3100 files added (on-disk size: 187135.9 KB)
+0117.970 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-uploads.zip.tmp: 3200 files added (on-disk size: 187135.9 KB)
+0117.977 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-uploads.zip.tmp: 3300 files added (on-disk size: 187135.9 KB)
+0117.983 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-uploads.zip.tmp: 3400 files added (on-disk size: 187135.9 KB)
+0117.990 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-uploads.zip.tmp: 3500 files added (on-disk size: 187135.9 KB)
+0117.993 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (36.2 MB, 3679 files batched, 501 (3517) added so far); re-opening (prior size: 187135.9 KB)
+0121.418 (0) Zip: backup_2017-08-30-0532_Yempo_093b6af6ee7c-uploads.zip.tmp: 3600 files added (on-disk size: 223737.3 KB)
+0128.260 (0) Created uploads zip (0) - 237756.5 KB in 40 s (5949.4 KB/s) (sha1: 22ea0902478d77ad76a78527ddb1ec2bcb74115b, sha256: f89d945ab06eeab0cb770ac07bfe48b09acfdbef7e86c1a2ae466230aaa81a8c)
+0128.268 (0) Beginning backup of other directories found in the content directory (index: 0)
+0128.271 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql
+0128.273 (0) Looking for candidates to back up in: /home3/yempo/public_html/wp-content
+0128.276 (0) finding files: updraft: skipping: this is the updraft directory
+0128.278 (0) finding files: cache: skipping: excluded by options
+0128.281 (0) finding files: index.php: adding to list (1)
+0128.283 (0) finding files: uploads: skipping: this is the uploads directory
+0128.286 (0) finding files: plugins: skipping: this is the plugins directory
+0128.289 (0) finding files: upgrade: skipping: excluded by options
+0128.291 (0) finding files: object-cache.php: adding to list (2)
+0128.294 (0) finding files: themes: skipping: this is the themes directory
+0128.296 (0) finding files: contact-bank: adding to list (3)
+0128.299 (0) finding files: install.php: adding to list (4)
+0128.301 (0) finding files: w3tc-config: adding to list (5)
+0128.304 (0) finding files: debug.log: adding to list (6)
+0128.306 (0) finding files: advanced-cache.php: adding to list (7)
+0128.540 (0) Total entities for the zip file: 2 directories, 9 files (0 skipped as non-modified), 415 MB
+0128.544 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 40.5 MB added on this batch (166.6 MB, 9 files batched, 3 (3) added so far); re-opening (prior size: 0 KB)
+0146.056 (0) backup_2017-08-30-0532_Yempo_093b6af6ee7c-others.zip.tmp: size is now: 2.40 MB
+0146.062 (0) A useful amount of data was added after this amount of zip processing: 17.7 s (normalised: 4.3 s, rate: 9616.5 KB/s)
+0146.066 (0) Performance is good - will increase the amount of data we attempt to batch (time=17.739940881729, normalised_time=4.3098874236899, max_time=-1, data points known=0, old_max_bytes=42440581, new_max_bytes=59083558)
+0146.071 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 56.3 MB added on this batch (248.4 MB, 9 files batched, 5 (8) added so far); re-opening (prior size: 2454.2 KB)
+0168.506 (0) backup_2017-08-30-0532_Yempo_093b6af6ee7c-others.zip.tmp: size is now: 6.10 MB
+0168.512 (0) A useful amount of data was added after this amount of zip processing: 23.2 s (normalised: 5.3 s, rate: 10967.8 KB/s)
+0168.516 (0) Performance is good - will increase the amount of data we attempt to batch (time=23.189568996429, normalised_time=5.2607478770458, max_time=-1, data points known=0, old_max_bytes=59083558, new_max_bytes=67386112)
+0168.711 (0) Created others zip (0) - 6196.8 KB in 40.2 s (154.1 KB/s) (sha1: a5d63fff076b14b5b64ab855f8b4df72d7c249f0, sha256: f1237b2f204b3008b3945c9b1960432cea92d4b3b40b23e71c45bb3d1f762aae)
+0168.722 (0) Saving backup status to database (elements: 8)
+0168.729 (0) Beginning creation of database dump (WordPress DB)
+0168.734 (0) Testing: /usr/bin/mysqldump
+0168.765 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nCRE (truncated - 1193 bytes total)
+0168.770 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0168.806 (0) Table wp_options: Total expected rows (approximate): 4501
+0169.229 (0) Table wp_options: Total rows added: 4497 in 0.42 seconds
+0169.233 (0) Table wp_options: finishing file (backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_options.table.gz - 421.3 KB)
+0169.240 (0) Table wp_users: Total expected rows (approximate): 4
+0169.245 (0) Table wp_users: Total rows added: 4 in 0.00 seconds
+0169.248 (0) Table wp_users: finishing file (backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_users.table.gz - 0.9 KB)
+0169.254 (0) Table wp_usermeta: Total expected rows (approximate): 114
+0169.261 (0) Table wp_usermeta: Total rows added: 114 in 0.00 seconds
+0169.264 (0) Table wp_usermeta: finishing file (backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_usermeta.table.gz - 3.3 KB)
+0169.299 (0) Table wp_commentmeta: Total expected rows (approximate): 12
+0169.306 (0) Table wp_commentmeta: Total rows added: 12 in 0.00 seconds
+0169.309 (0) Table wp_commentmeta: finishing file (backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_commentmeta.table.gz - 2.2 KB)
+0169.317 (0) Table wp_comments: Total expected rows (approximate): 14
+0169.324 (0) Table wp_comments: Total rows added: 14 in 0.00 seconds
+0169.328 (0) Table wp_comments: finishing file (backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_comments.table.gz - 4.1 KB)
+0169.529 (0) Table wp_links: Total expected rows (approximate): 0
+0169.533 (0) Table wp_links: Total rows added: 0 in 0.00 seconds
+0169.536 (0) Table wp_links: finishing file (backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_links.table.gz - 0.4 KB)
+0169.544 (0) Table wp_postmeta: Total expected rows (approximate): 9639
+0169.642 (0) Table wp_postmeta: binary mysqldump finished (writes: 33) in 0.10 seconds
+0169.647 (0) Table wp_postmeta: finishing file (backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_postmeta.table.gz - 128.3 KB)
+0169.655 (0) Table wp_posts: Total expected rows (approximate): 1945
+0170.306 (0) Table wp_posts: Total rows added: 1945 in 0.65 seconds
+0170.311 (0) Table wp_posts: finishing file (backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_posts.table.gz - 724.5 KB)
+0170.320 (0) Table wp_term_relationships: Total expected rows (approximate): 239
+0170.327 (0) Table wp_term_relationships: Total rows added: 239 in 0.00 seconds
+0170.330 (0) Table wp_term_relationships: finishing file (backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_term_relationships.table.gz - 1.2 KB)
+0170.338 (0) Table wp_term_taxonomy: Total expected rows (approximate): 79
+0170.345 (0) Table wp_term_taxonomy: Total rows added: 79 in 0.00 seconds
+0170.348 (0) Table wp_term_taxonomy: finishing file (backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_term_taxonomy.table.gz - 1 KB)
+0170.356 (0) Table wp_termmeta: Total expected rows (approximate): 0
+0170.361 (0) Table wp_termmeta: Total rows added: 0 in 0.00 seconds
+0170.365 (0) Table wp_termmeta: finishing file (backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_termmeta.table.gz - 0.4 KB)
+0170.372 (0) Table wp_terms: Total expected rows (approximate): 79
+0170.378 (0) Table wp_terms: Total rows added: 79 in 0.00 seconds
+0170.381 (0) Table wp_terms: finishing file (backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_terms.table.gz - 1.4 KB)
+0170.389 (0) Table wp_cb_contact_form: Total expected rows (approximate): 2
+0170.394 (0) Table wp_cb_contact_form: Total rows added: 2 in 0.00 seconds
+0170.396 (0) Table wp_cb_contact_form: finishing file (backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_cb_contact_form.table.gz - 0.3 KB)
+0170.405 (0) Table wp_cb_create_control_form: Total expected rows (approximate): 8
+0170.410 (0) Table wp_cb_create_control_form: Total rows added: 8 in 0.00 seconds
+0170.413 (0) Table wp_cb_create_control_form: finishing file (backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_cb_create_control_form.table.gz - 0.4 KB)
+0170.423 (0) Table wp_cb_dynamic_settings: Total expected rows (approximate): 86
+0170.430 (0) Table wp_cb_dynamic_settings: Total rows added: 86 in 0.00 seconds
+0170.434 (0) Table wp_cb_dynamic_settings: finishing file (backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_cb_dynamic_settings.table.gz - 0.9 KB)
+0170.442 (0) Table wp_cb_email_template_admin: Total expected rows (approximate): 4
+0170.448 (0) Table wp_cb_email_template_admin: Total rows added: 4 in 0.00 seconds
+0170.451 (0) Table wp_cb_email_template_admin: finishing file (backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_cb_email_template_admin.table.gz - 1 KB)
+0170.459 (0) Table wp_cb_form_settings_table: Total expected rows (approximate): 12
+0170.465 (0) Table wp_cb_form_settings_table: Total rows added: 12 in 0.00 seconds
+0170.468 (0) Table wp_cb_form_settings_table: finishing file (backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_cb_form_settings_table.table.gz - 0.6 KB)
+0170.478 (0) Table wp_cb_frontend_data_table: Total expected rows (approximate): 707
+0170.512 (0) Table wp_cb_frontend_data_table: Total rows added: 760 in 0.03 seconds
+0170.515 (0) Table wp_cb_frontend_data_table: finishing file (backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_cb_frontend_data_table.table.gz - 25.8 KB)
+0170.525 (0) Table wp_cb_frontend_forms_table: Total expected rows (approximate): 190
+0170.532 (0) Table wp_cb_frontend_forms_table: Total rows added: 190 in 0.00 seconds
+0170.535 (0) Table wp_cb_frontend_forms_table: finishing file (backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_cb_frontend_forms_table.table.gz - 1.1 KB)
+0170.543 (0) Table wp_cb_layout_settings_table: Total expected rows (approximate): 100
+0170.551 (0) Table wp_cb_layout_settings_table: Total rows added: 100 in 0.00 seconds
+0170.553 (0) Table wp_cb_layout_settings_table: finishing file (backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_cb_layout_settings_table.table.gz - 1.1 KB)
+0170.563 (0) Table wp_cb_licensing: Total expected rows (approximate): 1
+0170.568 (0) Table wp_cb_licensing: Total rows added: 1 in 0.00 seconds
+0170.571 (0) Table wp_cb_licensing: finishing file (backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_cb_licensing.table.gz - 0.4 KB)
+0170.580 (0) Table wp_cb_roles_capability: Total expected rows (approximate): 15
+0170.586 (0) Table wp_cb_roles_capability: Total rows added: 15 in 0.00 seconds
+0170.589 (0) Table wp_cb_roles_capability: finishing file (backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_cb_roles_capability.table.gz - 0.4 KB)
+0170.602 (0) Table wp_formmaker: Total expected rows (approximate): 18
+0170.617 (0) Table wp_formmaker: Total rows added: 18 in 0.01 seconds
+0170.620 (0) Table wp_formmaker: finishing file (backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_formmaker.table.gz - 5.9 KB)
+0170.634 (0) Table wp_formmaker_backup: Total expected rows (approximate): 1
+0170.641 (0) Table wp_formmaker_backup: Total rows added: 1 in 0.00 seconds
+0170.644 (0) Table wp_formmaker_backup: finishing file (backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_formmaker_backup.table.gz - 1.7 KB)
+0170.654 (0) Table wp_formmaker_blocked: Total expected rows (approximate): 0
+0170.658 (0) Table wp_formmaker_blocked: Total rows added: 0 in 0.00 seconds
+0170.662 (0) Table wp_formmaker_blocked: finishing file (backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_formmaker_blocked.table.gz - 0.3 KB)
+0170.671 (0) Table wp_formmaker_query: Total expected rows (approximate): 0
+0170.676 (0) Table wp_formmaker_query: Total rows added: 0 in 0.00 seconds
+0170.680 (0) Table wp_formmaker_query: finishing file (backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_formmaker_query.table.gz - 0.3 KB)
+0170.829 (0) Table wp_formmaker_sessions: Total expected rows (approximate): 0
+0170.834 (0) Table wp_formmaker_sessions: Total rows added: 0 in 0.00 seconds
+0170.837 (0) Table wp_formmaker_sessions: finishing file (backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_formmaker_sessions.table.gz - 0.5 KB)
+0170.848 (0) Table wp_formmaker_submits: Total expected rows (approximate): 0
+0170.853 (0) Table wp_formmaker_submits: Total rows added: 0 in 0.00 seconds
+0170.856 (0) Table wp_formmaker_submits: finishing file (backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_formmaker_submits.table.gz - 0.3 KB)
+0170.868 (0) Table wp_formmaker_themes: Total expected rows (approximate): 37
+0170.897 (0) Table wp_formmaker_themes: Total rows added: 37 in 0.03 seconds
+0170.901 (0) Table wp_formmaker_themes: finishing file (backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_formmaker_themes.table.gz - 22.7 KB)
+0170.914 (0) Table wp_formmaker_views: Total expected rows (approximate): 0
+0170.918 (0) Table wp_formmaker_views: Total rows added: 0 in 0.00 seconds
+0170.921 (0) Table wp_formmaker_views: finishing file (backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_formmaker_views.table.gz - 0.3 KB)
+0170.929 (0) Table wp_itsec_lockouts: Total expected rows (approximate): 17
+0170.936 (0) Table wp_itsec_lockouts: Total rows added: 17 in 0.00 seconds
+0170.939 (0) Table wp_itsec_lockouts: finishing file (backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_itsec_lockouts.table.gz - 0.8 KB)
+0170.952 (0) Table wp_itsec_log: Total expected rows (approximate): 202
+0170.972 (0) Table wp_itsec_log: Total rows added: 202 in 0.02 seconds
+0170.976 (0) Table wp_itsec_log: finishing file (backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_itsec_log.table.gz - 3.7 KB)
+0170.989 (0) Table wp_itsec_temp: Total expected rows (approximate): 44
+0170.996 (0) Table wp_itsec_temp: Total rows added: 44 in 0.00 seconds
+0170.999 (0) Table wp_itsec_temp: finishing file (backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_itsec_temp.table.gz - 0.9 KB)
+0171.009 (0) Table wp_mail_system: Total expected rows (approximate): 0
+0171.014 (0) Table wp_mail_system: Total rows added: 0 in 0.00 seconds
+0171.017 (0) Table wp_mail_system: finishing file (backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_mail_system.table.gz - 0.3 KB)
+0171.025 (0) Table wp_redirection_404: Total expected rows (approximate): 8803
+0171.120 (0) Table wp_redirection_404: binary mysqldump finished (writes: 37) in 0.09 seconds
+0171.131 (0) Table wp_redirection_404: finishing file (backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_redirection_404.table.gz - 82 KB)
+0171.138 (0) Table wp_redirection_groups: Total expected rows (approximate): 2
+0171.142 (0) Table wp_redirection_groups: Total rows added: 2 in 0.00 seconds
+0171.145 (0) Table wp_redirection_groups: finishing file (backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_redirection_groups.table.gz - 0.4 KB)
+0171.152 (0) Table wp_redirection_items: Total expected rows (approximate): 38
+0171.158 (0) Table wp_redirection_items: Total rows added: 38 in 0.00 seconds
+0171.161 (0) Table wp_redirection_items: finishing file (backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_redirection_items.table.gz - 1.8 KB)
+0171.172 (0) Table wp_redirection_logs: Total expected rows (approximate): 4
+0171.177 (0) Table wp_redirection_logs: Total rows added: 4 in 0.00 seconds
+0171.180 (0) Table wp_redirection_logs: finishing file (backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_redirection_logs.table.gz - 0.7 KB)
+0171.190 (0) Table wp_smuzform_entry: Total expected rows (approximate): 0
+0171.194 (0) Table wp_smuzform_entry: Total rows added: 0 in 0.00 seconds
+0171.197 (0) Table wp_smuzform_entry: finishing file (backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_smuzform_entry.table.gz - 0.4 KB)
+0171.212 (0) Table wp_smuzform_entry_data: Total expected rows (approximate): 0
+0171.216 (0) Table wp_smuzform_entry_data: Total rows added: 0 in 0.00 seconds
+0171.220 (0) Table wp_smuzform_entry_data: finishing file (backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_smuzform_entry_data.table.gz - 0.4 KB)
+0171.236 (0) Table wp_tcb_api_error_log: Total expected rows (approximate): 0
+0171.240 (0) Table wp_tcb_api_error_log: Total rows added: 0 in 0.00 seconds
+0171.243 (0) Table wp_tcb_api_error_log: finishing file (backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_tcb_api_error_log.table.gz - 0.4 KB)
+0171.255 (0) Table wp_w3tc_cdn_queue: Total expected rows (approximate): 0
+0171.260 (0) Table wp_w3tc_cdn_queue: Total rows added: 0 in 0.00 seconds
+0171.263 (0) Table wp_w3tc_cdn_queue: finishing file (backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_w3tc_cdn_queue.table.gz - 0.4 KB)
+0171.278 (0) Table wp_wfBadLeechers: Total expected rows (approximate): 0
+0171.281 (0) Table wp_wfBadLeechers: Total rows added: 0 in 0.00 seconds
+0171.284 (0) Table wp_wfBadLeechers: finishing file (backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_wfBadLeechers.table.gz - 0.3 KB)
+0171.294 (0) Table wp_wfBlockedIPLog: Total expected rows (approximate): 45
+0171.299 (0) Table wp_wfBlockedIPLog: Total rows added: 45 in 0.00 seconds
+0171.302 (0) Table wp_wfBlockedIPLog: finishing file (backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_wfBlockedIPLog.table.gz - 0.7 KB)
+0171.312 (0) Table wp_wfBlocks: Total expected rows (approximate): 1
+0171.316 (0) Table wp_wfBlocks: Total rows added: 1 in 0.00 seconds
+0171.319 (0) Table wp_wfBlocks: finishing file (backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_wfBlocks.table.gz - 0.4 KB)
+0171.329 (0) Table wp_wfBlocksAdv: Total expected rows (approximate): 0
+0171.333 (0) Table wp_wfBlocksAdv: Total rows added: 0 in 0.00 seconds
+0171.335 (0) Table wp_wfBlocksAdv: finishing file (backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_wfBlocksAdv.table.gz - 0.3 KB)
+0171.346 (0) Table wp_wfConfig: Total expected rows (approximate): 122
+0171.352 (0) Table wp_wfConfig: Total rows added: 122 in 0.00 seconds
+0171.355 (0) Table wp_wfConfig: finishing file (backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_wfConfig.table.gz - 2.2 KB)
+0171.456 (0) Table wp_wfCrawlers: Total expected rows (approximate): 9
+0171.461 (0) Table wp_wfCrawlers: Total rows added: 9 in 0.00 seconds
+0171.463 (0) Table wp_wfCrawlers: finishing file (backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_wfCrawlers.table.gz - 0.6 KB)
+0171.474 (0) Table wp_wfFileMods: Total expected rows (approximate): 6918
+0171.757 (0) Table wp_wfFileMods: Total rows added: 6918 in 0.28 seconds
+0171.761 (0) Table wp_wfFileMods: finishing file (backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_wfFileMods.table.gz - 312.4 KB)
+0171.772 (0) Table wp_wfHits: Total expected rows (approximate): 1893
+0171.884 (0) Table wp_wfHits: Total rows added: 1893 in 0.11 seconds
+0171.908 (0) Table wp_wfHits: finishing file (backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_wfHits.table.gz - 51 KB)
+0171.919 (0) Table wp_wfHoover: Total expected rows (approximate): 0
+0171.923 (0) Table wp_wfHoover: Total rows added: 0 in 0.00 seconds
+0171.926 (0) Table wp_wfHoover: finishing file (backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_wfHoover.table.gz - 0.3 KB)
+0171.937 (0) Table wp_wfIssues: Total expected rows (approximate): 8
+0171.943 (0) Table wp_wfIssues: Total rows added: 8 in 0.00 seconds
+0171.945 (0) Table wp_wfIssues: finishing file (backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_wfIssues.table.gz - 2.1 KB)
+0171.956 (0) Table wp_wfLeechers: Total expected rows (approximate): 211
+0171.964 (0) Table wp_wfLeechers: Total rows added: 211 in 0.01 seconds
+0171.967 (0) Table wp_wfLeechers: finishing file (backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_wfLeechers.table.gz - 1.8 KB)
+0171.978 (0) Table wp_wfLockedOut: Total expected rows (approximate): 0
+0171.982 (0) Table wp_wfLockedOut: Total rows added: 0 in 0.00 seconds
+0171.984 (0) Table wp_wfLockedOut: finishing file (backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_wfLockedOut.table.gz - 0.3 KB)
+0171.995 (0) Table wp_wfLocs: Total expected rows (approximate): 0
+0171.999 (0) Table wp_wfLocs: Total rows added: 0 in 0.00 seconds
+0172.001 (0) Table wp_wfLocs: finishing file (backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_wfLocs.table.gz - 0.4 KB)
+0172.012 (0) Table wp_wfLogins: Total expected rows (approximate): 526
+0172.042 (0) Table wp_wfLogins: Total rows added: 526 in 0.03 seconds
+0172.045 (0) Table wp_wfLogins: finishing file (backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_wfLogins.table.gz - 10.2 KB)
+0172.056 (0) Table wp_wfNet404s: Total expected rows (approximate): 1
+0172.061 (0) Table wp_wfNet404s: Total rows added: 1 in 0.00 seconds
+0172.063 (0) Table wp_wfNet404s: finishing file (backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_wfNet404s.table.gz - 0.4 KB)
+0172.074 (0) Table wp_wfReverseCache: Total expected rows (approximate): 3
+0172.078 (0) Table wp_wfReverseCache: Total rows added: 3 in 0.00 seconds
+0172.081 (0) Table wp_wfReverseCache: finishing file (backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_wfReverseCache.table.gz - 0.4 KB)
+0172.091 (0) Table wp_wfScanners: Total expected rows (approximate): 16
+0172.095 (0) Table wp_wfScanners: Total rows added: 16 in 0.00 seconds
+0172.098 (0) Table wp_wfScanners: finishing file (backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_wfScanners.table.gz - 0.5 KB)
+0172.109 (0) Table wp_wfStatus: Total expected rows (approximate): 965
+0172.147 (0) Table wp_wfStatus: Total rows added: 965 in 0.03 seconds
+0172.150 (0) Table wp_wfStatus: finishing file (backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_wfStatus.table.gz - 17 KB)
+0172.161 (0) Table wp_wfThrottleLog: Total expected rows (approximate): 0
+0172.164 (0) Table wp_wfThrottleLog: Total rows added: 0 in 0.00 seconds
+0172.167 (0) Table wp_wfThrottleLog: finishing file (backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_wfThrottleLog.table.gz - 0.3 KB)
+0172.190 (0) Table wp_wfVulnScanners: Total expected rows (approximate): 0
+0172.193 (0) Table wp_wfVulnScanners: Total rows added: 0 in 0.00 seconds
+0172.301 (0) Table wp_wfVulnScanners: finishing file (backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_wfVulnScanners.table.gz - 0.3 KB)
+0172.310 (0) Table wp_wplc_chat_msgs: Total expected rows (approximate): 0
+0172.314 (0) Table wp_wplc_chat_msgs: Total rows added: 0 in 0.00 seconds
+0172.317 (0) Table wp_wplc_chat_msgs: finishing file (backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_wplc_chat_msgs.table.gz - 0.3 KB)
+0172.327 (0) Table wp_wplc_chat_sessions: Total expected rows (approximate): 0
+0172.331 (0) Table wp_wplc_chat_sessions: Total rows added: 0 in 0.00 seconds
+0172.334 (0) Table wp_wplc_chat_sessions: finishing file (backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_wplc_chat_sessions.table.gz - 0.4 KB)
+0172.343 (0) Table wp_wplc_offline_messages: Total expected rows (approximate): 0
+0172.347 (0) Table wp_wplc_offline_messages: Total rows added: 0 in 0.00 seconds
+0172.350 (0) Table wp_wplc_offline_messages: finishing file (backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_wplc_offline_messages.table.gz - 0.3 KB)
+0172.362 (0) Table wp_yoast_seo_links: Total expected rows (approximate): 21
+0172.367 (0) Table wp_yoast_seo_links: Total rows added: 21 in 0.00 seconds
+0172.370 (0) Table wp_yoast_seo_links: finishing file (backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_yoast_seo_links.table.gz - 0.8 KB)
+0172.381 (0) Table wp_yoast_seo_meta: Total expected rows (approximate): 12
+0172.386 (0) Table wp_yoast_seo_meta: Total rows added: 12 in 0.00 seconds
+0172.389 (0) Table wp_yoast_seo_meta: finishing file (backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_yoast_seo_meta.table.gz - 0.4 KB)
+0172.396 (0) backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_options.table.gz (1/67): adding to final database dump
+0172.628 (0) backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_users.table.gz (2/67): adding to final database dump
+0172.632 (0) backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_usermeta.table.gz (3/67): adding to final database dump
+0172.636 (0) backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_commentmeta.table.gz (4/67): adding to final database dump
+0172.640 (0) backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_comments.table.gz (5/67): adding to final database dump
+0172.643 (0) backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_links.table.gz (6/67): adding to final database dump
+0172.646 (0) backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_postmeta.table.gz (7/67): adding to final database dump
+0172.705 (0) backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_posts.table.gz (8/67): adding to final database dump
+0173.047 (0) backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_term_relationships.table.gz (9/67): adding to final database dump
+0173.053 (0) backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_term_taxonomy.table.gz (10/67): adding to final database dump
+0173.056 (0) backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_termmeta.table.gz (11/67): adding to final database dump
+0173.059 (0) backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_terms.table.gz (12/67): adding to final database dump
+0173.062 (0) backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_cb_contact_form.table.gz (13/67): adding to final database dump
+0173.065 (0) backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_cb_create_control_form.table.gz (14/67): adding to final database dump
+0173.068 (0) backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_cb_dynamic_settings.table.gz (15/67): adding to final database dump
+0173.071 (0) backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_cb_email_template_admin.table.gz (16/67): adding to final database dump
+0173.074 (0) backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_cb_form_settings_table.table.gz (17/67): adding to final database dump
+0173.077 (0) backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_cb_frontend_data_table.table.gz (18/67): adding to final database dump
+0173.096 (0) backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_cb_frontend_forms_table.table.gz (19/67): adding to final database dump
+0173.101 (0) backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_cb_layout_settings_table.table.gz (20/67): adding to final database dump
+0173.105 (0) backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_cb_licensing.table.gz (21/67): adding to final database dump
+0173.108 (0) backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_cb_roles_capability.table.gz (22/67): adding to final database dump
+0173.111 (0) backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_formmaker.table.gz (23/67): adding to final database dump
+0173.118 (0) backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_formmaker_backup.table.gz (24/67): adding to final database dump
+0173.121 (0) backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_formmaker_blocked.table.gz (25/67): adding to final database dump
+0173.128 (0) backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_formmaker_query.table.gz (26/67): adding to final database dump
+0173.131 (0) backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_formmaker_sessions.table.gz (27/67): adding to final database dump
+0173.134 (0) backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_formmaker_submits.table.gz (28/67): adding to final database dump
+0173.137 (0) backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_formmaker_themes.table.gz (29/67): adding to final database dump
+0173.156 (0) backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_formmaker_views.table.gz (30/67): adding to final database dump
+0173.159 (0) backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_itsec_lockouts.table.gz (31/67): adding to final database dump
+0173.253 (0) backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_itsec_log.table.gz (32/67): adding to final database dump
+0173.260 (0) backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_itsec_temp.table.gz (33/67): adding to final database dump
+0173.263 (0) backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_mail_system.table.gz (34/67): adding to final database dump
+0173.266 (0) backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_redirection_404.table.gz (35/67): adding to final database dump
+0173.306 (0) backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_redirection_groups.table.gz (36/67): adding to final database dump
+0173.309 (0) backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_redirection_items.table.gz (37/67): adding to final database dump
+0173.312 (0) backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_redirection_logs.table.gz (38/67): adding to final database dump
+0173.315 (0) backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_smuzform_entry.table.gz (39/67): adding to final database dump
+0173.318 (0) backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_smuzform_entry_data.table.gz (40/67): adding to final database dump
+0173.320 (0) backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_tcb_api_error_log.table.gz (41/67): adding to final database dump
+0173.323 (0) backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_w3tc_cdn_queue.table.gz (42/67): adding to final database dump
+0173.325 (0) backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_wfBadLeechers.table.gz (43/67): adding to final database dump
+0173.328 (0) backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_wfBlockedIPLog.table.gz (44/67): adding to final database dump
+0173.331 (0) backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_wfBlocks.table.gz (45/67): adding to final database dump
+0173.334 (0) backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_wfBlocksAdv.table.gz (46/67): adding to final database dump
+0173.336 (0) backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_wfConfig.table.gz (47/67): adding to final database dump
+0173.340 (0) backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_wfCrawlers.table.gz (48/67): adding to final database dump
+0173.343 (0) backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_wfFileMods.table.gz (49/67): adding to final database dump
+0173.483 (0) backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_wfHits.table.gz (50/67): adding to final database dump
+0173.522 (0) backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_wfHoover.table.gz (51/67): adding to final database dump
+0173.525 (0) backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_wfIssues.table.gz (52/67): adding to final database dump
+0173.529 (0) backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_wfLeechers.table.gz (53/67): adding to final database dump
+0173.534 (0) backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_wfLockedOut.table.gz (54/67): adding to final database dump
+0173.536 (0) backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_wfLocs.table.gz (55/67): adding to final database dump
+0173.539 (0) backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_wfLogins.table.gz (56/67): adding to final database dump
+0173.550 (0) backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_wfNet404s.table.gz (57/67): adding to final database dump
+0173.553 (0) backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_wfReverseCache.table.gz (58/67): adding to final database dump
+0173.556 (0) backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_wfScanners.table.gz (59/67): adding to final database dump
+0173.559 (0) backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_wfStatus.table.gz (60/67): adding to final database dump
+0173.575 (0) backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_wfThrottleLog.table.gz (61/67): adding to final database dump
+0173.578 (0) backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_wfVulnScanners.table.gz (62/67): adding to final database dump
+0173.581 (0) backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_wplc_chat_msgs.table.gz (63/67): adding to final database dump
+0173.583 (0) backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_wplc_chat_sessions.table.gz (64/67): adding to final database dump
+0173.586 (0) backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_wplc_offline_messages.table.gz (65/67): adding to final database dump
+0173.589 (0) backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_yoast_seo_links.table.gz (66/67): adding to final database dump
+0173.591 (0) backup_2017-08-30-0532_Yempo_093b6af6ee7c-db-table-wp_yoast_seo_meta.table.gz (67/67): adding to final database dump
+0173.594 (0) backup_2017-08-30-0532_Yempo_093b6af6ee7c-db.gz: finished writing out complete database file (1808 KB)
+0173.641 (0) Total database tables backed up: 67 (backup_2017-08-30-0532_Yempo_093b6af6ee7c-db.gz, size: 1878834, sha256)
+0173.651 (0) backup_2017-08-30-0532_Yempo_093b6af6ee7c-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0173.654 (0) backup_2017-08-30-0532_Yempo_093b6af6ee7c-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0173.656 (0) backup_2017-08-30-0532_Yempo_093b6af6ee7c-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0173.659 (0) backup_2017-08-30-0532_Yempo_093b6af6ee7c-others.zip: others: This file has not yet been successfully uploaded: will queue
+0173.661 (0) backup_2017-08-30-0532_Yempo_093b6af6ee7c-db.gz: db: This file has not yet been successfully uploaded: will queue
+0173.663 (0) Saving backup history. Total backup size: 282 MB
+0173.808 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0173.814 (0) Cloud backup selection (1/1): dropbox (last)
+0173.816 (0) Beginning dispatch of backup to remote (dropbox)
+0173.819 (0) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+0173.869 (0) Dropbox: access gained; setting chunk size to: 1024 KB
+0174.455 (0) Dropbox quota usage: used=104672.8 MB, total=1050880 MB, available=946207.2 MB
+0174.458 (0) Dropbox: Attempt to upload: backup_2017-08-30-0532_Yempo_093b6af6ee7c-plugins.zip to: backup_2017-08-30-0532_Yempo_093b6af6ee7c-plugins.zip
+0176.216 (0) Dropbox chunked upload: 2.7 % uploaded (AAAAAAAAuVPHvXDZnabS9g, 1048576, 5120 KB)
+0180.531 (0) Dropbox chunked upload: 16.4 % uploaded (AAAAAAAAuVPHvXDZnabS9g, 6291456, 10240 KB)
+0185.337 (0) Dropbox chunked upload: 43.8 % uploaded (AAAAAAAAuVPHvXDZnabS9g, 16777216, 10240 KB)
+0189.677 (0) Dropbox chunked upload: 71.1 % uploaded (AAAAAAAAuVPHvXDZnabS9g, 27262976, 10240 KB)
+0195.639 (0) Dropbox chunked upload: 98.4 % uploaded (AAAAAAAAuVPHvXDZnabS9g, 37748736, 10240 KB)
+0197.525 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAAAuVPHvXDZnabS9g, 38345703, 10240 KB)
+0198.847 (0) Recording as successfully uploaded: backup_2017-08-30-0532_Yempo_093b6af6ee7c-plugins.zip (c026b59450f29a9b09580b2c48087b26)
+0198.883 (0) Deleting local file: backup_2017-08-30-0532_Yempo_093b6af6ee7c-plugins.zip: OK
+0198.887 (0) Dropbox: File upload success (backup_2017-08-30-0532_Yempo_093b6af6ee7c-plugins.zip): 37446 KB in 24s (1532 KB/s)
+0199.402 (0) Dropbox quota usage: used=104709.4 MB, total=1050880 MB, available=946170.6 MB
+0199.406 (0) Dropbox: Attempt to upload: backup_2017-08-30-0532_Yempo_093b6af6ee7c-themes.zip to: backup_2017-08-30-0532_Yempo_093b6af6ee7c-themes.zip
+0202.883 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAAAuVQVUpkUgL-NrQ, 5683284, 10240 KB)
+0206.259 (0) Recording as successfully uploaded: backup_2017-08-30-0532_Yempo_093b6af6ee7c-themes.zip (940eeebf3aed47eff1eba1c3a75ed1c6)
+0206.268 (0) Deleting local file: backup_2017-08-30-0532_Yempo_093b6af6ee7c-themes.zip: OK
+0206.271 (0) Dropbox: File upload success (backup_2017-08-30-0532_Yempo_093b6af6ee7c-themes.zip): 5550 KB in 6s (808 KB/s)
+0206.776 (0) Dropbox quota usage: used=104714.8 MB, total=1050880 MB, available=946165.2 MB
+0206.779 (0) Dropbox: Attempt to upload: backup_2017-08-30-0532_Yempo_093b6af6ee7c-uploads.zip to: backup_2017-08-30-0532_Yempo_093b6af6ee7c-uploads.zip
+0210.786 (0) Dropbox chunked upload: 4.3 % uploaded (AAAAAAAAuVXE0sN44U2Sew, 10485760, 10240 KB)
+0215.496 (0) Dropbox chunked upload: 8.6 % uploaded (AAAAAAAAuVXE0sN44U2Sew, 20971520, 10240 KB)
+0219.896 (0) Dropbox chunked upload: 12.9 % uploaded (AAAAAAAAuVXE0sN44U2Sew, 31457280, 10240 KB)
+0225.292 (0) Dropbox chunked upload: 17.2 % uploaded (AAAAAAAAuVXE0sN44U2Sew, 41943040, 10240 KB)
+0229.999 (0) Dropbox chunked upload: 21.5 % uploaded (AAAAAAAAuVXE0sN44U2Sew, 52428800, 10240 KB)
+0235.152 (0) Dropbox chunked upload: 25.8 % uploaded (AAAAAAAAuVXE0sN44U2Sew, 62914560, 10240 KB)
+0240.228 (0) Dropbox chunked upload: 30.1 % uploaded (AAAAAAAAuVXE0sN44U2Sew, 73400320, 10240 KB)
+0245.345 (0) Dropbox chunked upload: 34.5 % uploaded (AAAAAAAAuVXE0sN44U2Sew, 83886080, 10240 KB)
+0249.721 (0) Dropbox chunked upload: 38.8 % uploaded (AAAAAAAAuVXE0sN44U2Sew, 94371840, 10240 KB)
+0255.050 (0) Dropbox chunked upload: 43.1 % uploaded (AAAAAAAAuVXE0sN44U2Sew, 104857600, 10240 KB)
+0259.723 (0) Dropbox chunked upload: 47.4 % uploaded (AAAAAAAAuVXE0sN44U2Sew, 115343360, 10240 KB)
+0265.320 (0) Dropbox chunked upload: 51.7 % uploaded (AAAAAAAAuVXE0sN44U2Sew, 125829120, 10240 KB)
+0269.671 (0) Dropbox chunked upload: 56 % uploaded (AAAAAAAAuVXE0sN44U2Sew, 136314880, 10240 KB)
+0274.646 (0) Dropbox chunked upload: 60.3 % uploaded (AAAAAAAAuVXE0sN44U2Sew, 146800640, 10240 KB)
+0279.697 (0) Dropbox chunked upload: 64.6 % uploaded (AAAAAAAAuVXE0sN44U2Sew, 157286400, 10240 KB)
+0285.087 (0) Dropbox chunked upload: 68.9 % uploaded (AAAAAAAAuVXE0sN44U2Sew, 167772160, 10240 KB)
+0289.319 (0) Dropbox chunked upload: 73.2 % uploaded (AAAAAAAAuVXE0sN44U2Sew, 178257920, 10240 KB)
+0294.371 (0) Dropbox chunked upload: 77.5 % uploaded (AAAAAAAAuVXE0sN44U2Sew, 188743680, 10240 KB)
+0298.056 (0) Dropbox chunked upload: 81.8 % uploaded (AAAAAAAAuVXE0sN44U2Sew, 199229440, 10240 KB)
+0301.501 (0) Dropbox chunked upload: 86.1 % uploaded (AAAAAAAAuVXE0sN44U2Sew, 209715200, 10240 KB)
+0306.089 (0) Dropbox chunked upload: 90.4 % uploaded (AAAAAAAAuVXE0sN44U2Sew, 220200960, 10240 KB)
+0312.144 (0) Dropbox chunked upload: 94.8 % uploaded (AAAAAAAAuVXE0sN44U2Sew, 230686720, 10240 KB)
+0316.457 (0) Dropbox chunked upload: 99.1 % uploaded (AAAAAAAAuVXE0sN44U2Sew, 241172480, 10240 KB)
+0319.241 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAAAuVXE0sN44U2Sew, 243462674, 10240 KB)
+0320.785 (0) Recording as successfully uploaded: backup_2017-08-30-0532_Yempo_093b6af6ee7c-uploads.zip (8719346d86b58046eb019a2f52c1a352)
+0320.876 (0) Deleting local file: backup_2017-08-30-0532_Yempo_093b6af6ee7c-uploads.zip: OK
+0320.879 (0) Dropbox: File upload success (backup_2017-08-30-0532_Yempo_093b6af6ee7c-uploads.zip): 237756 KB in 114s (2083 KB/s)
+0321.350 (0) Dropbox quota usage: used=104947 MB, total=1050880 MB, available=945933 MB
+0321.354 (0) Dropbox: Attempt to upload: backup_2017-08-30-0532_Yempo_093b6af6ee7c-others.zip to: backup_2017-08-30-0532_Yempo_093b6af6ee7c-others.zip
+0326.004 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAAAuVZFVNm3Egc4cA, 6345531, 10240 KB)
+0328.188 (0) Recording as successfully uploaded: backup_2017-08-30-0532_Yempo_093b6af6ee7c-others.zip (cadcaf9e4fb32a9b46a32cc103085b46)
+0328.198 (0) Deleting local file: backup_2017-08-30-0532_Yempo_093b6af6ee7c-others.zip: OK
+0328.201 (0) Dropbox: File upload success (backup_2017-08-30-0532_Yempo_093b6af6ee7c-others.zip): 6196 KB in 6s (905 KB/s)
+0328.685 (0) Dropbox quota usage: used=104953 MB, total=1050880 MB, available=945927 MB
+0328.688 (0) Dropbox: Attempt to upload: backup_2017-08-30-0532_Yempo_093b6af6ee7c-db.gz to: backup_2017-08-30-0532_Yempo_093b6af6ee7c-db.gz
+0330.486 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAAAuVfgkJdXqTzJdA, 1878834, 10240 KB)
+0332.910 (0) Recording as successfully uploaded: backup_2017-08-30-0532_Yempo_093b6af6ee7c-db.gz (fc1be4f9608746fcf4f2a5da29951133)
+0332.918 (0) Deleting local file: backup_2017-08-30-0532_Yempo_093b6af6ee7c-db.gz: OK
+0332.920 (0) Dropbox: File upload success (backup_2017-08-30-0532_Yempo_093b6af6ee7c-db.gz): 1834 KB in 4s (433 KB/s)
+0332.925 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=1, retain_db=1
+0332.929 (0) Number of backup sets in history: 2; groups (db): 1
+0332.931 (0) Examining (for databases) backup set with group_id=0, nonce=093b6af6ee7c, datestamp=1504071166 (Aug 30 2017 05:32:46)
+0332.934 (0) This backup set is the backup set just made, so will not be deleted.
+0332.937 (0) Examining (for databases) backup set with group_id=0, nonce=34fc2717e9c9, datestamp=1503466877 (Aug 23 2017 05:41:17)
+0332.939 (0) 1503466877: db: this set includes a database (backup_2017-08-23-0541_Yempo_34fc2717e9c9-db.gz); db count is now 1
+0332.942 (0) 1503466877: db: over retain limit (1); will delete this database
+0332.944 (0) Delete file: backup_2017-08-23-0541_Yempo_34fc2717e9c9-db.gz, service=dropbox
+0332.947 (0) Dropbox: request deletion: backup_2017-08-23-0541_Yempo_34fc2717e9c9-db.gz
+0333.921 (0) Dropbox: delete succeeded
+0333.927 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0333.930 (0) Number of backup sets in history: 2; groups (files): 1
+0333.933 (0) Examining (for files) backup set with nonce=093b6af6ee7c, datestamp=1504071166 (Aug 30 2017 05:32:46)
+0333.936 (0) This backup set is the backup set just made, so will not be deleted.
+0333.939 (0) This backup set is the backup set just made, so will not be deleted.
+0333.939 (0) This backup set is the backup set just made, so will not be deleted.
+0333.939 (0) This backup set is the backup set just made, so will not be deleted.
+0333.940 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0333.942 (0) Examining (for files) backup set with nonce=34fc2717e9c9, datestamp=1503466877 (Aug 23 2017 05:41:17)
+0333.945 (0) plugins: over retain limit (1); will delete this file entity
+0333.947 (0) themes: over retain limit (1); will delete this file entity
+0333.950 (0) uploads: over retain limit (1); will delete this file entity
+0333.952 (0) others: over retain limit (1); will delete this file entity
+0333.955 (0) Delete file: backup_2017-08-23-0541_Yempo_34fc2717e9c9-plugins.zip, service=dropbox
+0333.957 (0) Delete file: backup_2017-08-23-0541_Yempo_34fc2717e9c9-themes.zip, service=dropbox
+0333.960 (0) Delete file: backup_2017-08-23-0541_Yempo_34fc2717e9c9-uploads.zip, service=dropbox
+0333.962 (0) Delete file: backup_2017-08-23-0541_Yempo_34fc2717e9c9-others.zip, service=dropbox
+0333.965 (0) Dropbox: request deletion: backup_2017-08-23-0541_Yempo_34fc2717e9c9-plugins.zip
+0334.713 (0) Dropbox: delete succeeded
+0334.716 (0) Dropbox: request deletion: backup_2017-08-23-0541_Yempo_34fc2717e9c9-themes.zip
+0335.578 (0) Dropbox: delete succeeded
+0335.581 (0) Dropbox: request deletion: backup_2017-08-23-0541_Yempo_34fc2717e9c9-uploads.zip
+0336.498 (0) Dropbox: delete succeeded
+0336.501 (0) Dropbox: request deletion: backup_2017-08-23-0541_Yempo_34fc2717e9c9-others.zip
+0337.414 (0) Dropbox: delete succeeded
+0337.419 (0) This backup set is now empty; will remove from history
+0337.422 (0) Deleting log file (log.34fc2717e9c9.txt)
+0337.511 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0337.522 (0) Resume backup (093b6af6ee7c, 0): finish run
+0337.530 (0) Decremented the semaphore (fd) by 1
+0337.534 (0) Semaphore (fd) unlocked
+0337.537 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0337.624 (0) No email will/can be sent - the user has not configured an email address.
+0337.627 (0) The backup apparently succeeded and is now complete

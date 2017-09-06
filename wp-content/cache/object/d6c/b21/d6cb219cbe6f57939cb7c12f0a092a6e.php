@@ -1,0 +1,39 @@
+�J�Y<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":23:{s:2:"ID";s:4:"4457";s:11:"post_author";s:1:"2";s:9:"post_date";s:19:"2017-06-30 02:45:44";s:13:"post_date_gmt";s:19:"2017-06-30 02:45:44";s:12:"post_content";s:6938:"<p style="text-align: justify;"><img class="alignnone wp-image-4476 size-full" src="http://www.yempo-solutions.com/wp-content/uploads/2017/06/5-Best-Cities-for-Outsourcing-in-the-Philippines.png" alt="outsourcing-in-the-Philippines" width="900" height="444" /></p>
+<p style="text-align: justify;">Over the years, cities in the Philippines have gained recognition globally owing to the rise in rankings as the best outsourcing destinations worldwide. The five best cities for outsourcing in the Philippines include: Makati, Cebu, Ortigas, BGC and Angeles, in that order. These cities have emerged as the key IT destinations in the Philippines. Some of the key issues that are adding momentum to the Philippines include: cost competitiveness, Filipino similarities with the US with regard to culture and accent, and the good perception of business process outsourcing (BPO). The government of the Philippines is making immense strides yearly on infrastructure developments which in turn encourages mushrooming of giant industries.</p>
+
+<ol style="text-align: justify;">
+ 	<li>
+<h2 style="font-size: x-large;"><strong>Makati City</strong></h2>
+</li>
+</ol>
+<p style="text-align: justify;">This is one of the sixteen cities that makes up Metro Manila. This city is the Philippines’ financial center. It constitutes of the highest concentration of the Philippines’ multinational and local corporations. This city has employed over 67,000 BPOs and over 10,000 ITOs. Some of the top outsourcing companies present in this region include: Accenture, ACS, Convergys, and IBM among others.</p>
+
+<ol style="text-align: justify;" start="2">
+ 	<li>
+<h2 style="font-size: x-large;"><strong>Cebu</strong></h2>
+</li>
+</ol>
+<p style="text-align: justify;">Cebu city is regarded as the educational hub of central and southern Philippines. The central region constitutes of 138 private and public institutions of higher education. In the 2013-2014 academic year, about 260,000 students were enrolled to these institutions. Cebu city also has IT business process management industries which in turn have various BPO sectors. This indicates that this city has a diverse talent pool. Industry analyst Tholons added that Cebu city remains one of the strong outsourcing destinations in the Philippines. According to one of this firm’s analysts, Cebu city has an opportunity to capitalize on the current prevailing weakness in the global competition and in turn make the best out of it. <a href="https://open-look.com/philippine-top-outsourcing-destinations/">Tholons</a> has a strong belief that cities like Manila and Cebu are good choices and both attract customers as they have a reputation of providing better service delivery compared to other locations in the world. Cebu city is projected to rise in the coming years owing to good marketing in the global service outsourcing marketplace.</p>
+
+<ol style="text-align: justify;" start="3">
+ 	<li>
+<h2 style="font-size: x-large;"><strong>Ortigas Center</strong></h2>
+</li>
+</ol>
+<p style="text-align: justify;">This is a financial and CBD located next to Pasig, Mandaluyong. This is the second most important business district after Makati. Ortigas center is composed of many shopping malls, offices and other building complexes. It is also the headquarters of several corporations. This is the reason why it is regarded as one of the best outsourcing destinations in the Philippines.</p>
+
+<ol style="text-align: justify;" start="4">
+ 	<li>
+<h2 style="font-size: x-large;"><strong>Bonifacio Global City</strong></h2>
+</li>
+</ol>
+<p style="text-align: justify;">It is also known as BGC and is another financial district in Metro Manila. Following the sale of commercial land by the Bases Conversion and Development Authority (BCDA), this city has immensely grown financially. It has also employed various BPOs and ITOs and have some of the top outsourcing companies.</p>
+
+<ol style="text-align: justify;" start="5">
+ 	<li>
+<h2 style="font-size: x-large;"><strong>Clark/ Angeles City</strong></h2>
+</li>
+</ol>
+<p style="text-align: justify;">This is a highly urbanized city. This city has a population of over 410,000 people based on the 2015 census. The city is served by Clark International airport and was ranked by Money Sense magazine as one of the best places to live in the Philippines. Clark and Angeles today serve as the hub of businesses, industries and tourists. It is also a good place for leisure and many companies now see it, as one of the best cities for outsourcing in the Philippines.</p>
+<p style="text-align: justify;">Due to the government’s support and investment in infrastructure, many companies are choosing the Philippines as their outsourcing destination. For example, The US-based customer management Solutions Company, Convergys, owns 18 of the call centers in the Philippines. Another US-based company is the UnitedHealth, this is a healthcare provider which has back office operations in Taguig City. It is believed that the Philippines current IT/ITeS market is at $14 billion with $2 billion belonging to IT. Dani compared the market with the past years and stated that there has been an immense rise, because in the past years the total market barely amounted to only $7 billion. EXL Company is on the process of opening another of its centers in Cebu city. Similarly, IBM is on the process of expanding its business process outsourcing in the Philippines, IBM has placed focus on improving the values analytics and also improving customer support services. The Wells Fargo and Co is another foreign company which is establishing a business support 3030center in Taguig city for provision of high-value customer services and also back office services. The analyst stated, that the economic turmoil that is experienced in the local American economic markets has weakened their competence globally and as a result, majority of the large-scale buyers and sellers are now opting to go for proven locations which provide good long-term sustainability. Another US-based company, the JP Morgan Chase has in the past few years expanded in Manila city, and the company has established a 1000 employee facility in the same city.  The executive director of KMPG firm Pradeep Udhas, attributed Pilipino success to the lessons they learned from India which includes: the best practices and wisely managing and handling the talents and taxation challenges respectively. Udhas stated that the Philippines has specialized in these areas and as a result, outsourcing in the Philippines’ cities is now regarded as amongst the best outsourcing destinations in the world.</p>
+<p style="text-align: justify;"><a href="http://outsourcing.yempo-solutions.com/guide-outsourcing-ebook/"><img class="alignnone size-full wp-image-4007" src="http://www.yempo-solutions.com/wp-content/uploads/2017/01/ebook-cta.jpg" alt="" width="740" height="300" /></a></p>";s:10:"post_title";s:48:"5 Best Cities for Outsourcing in the Philippines";s:12:"post_excerpt";s:0:"";s:11:"post_status";s:7:"publish";s:14:"comment_status";s:6:"closed";s:11:"ping_status";s:4:"open";s:13:"post_password";s:0:"";s:9:"post_name";s:37:"5-best-cities-outsourcing-philippines";s:7:"to_ping";s:0:"";s:6:"pinged";s:0:"";s:13:"post_modified";s:19:"2017-07-06 08:37:09";s:17:"post_modified_gmt";s:19:"2017-07-06 08:37:09";s:21:"post_content_filtered";s:0:"";s:11:"post_parent";s:1:"0";s:4:"guid";s:38:"http://www.yempo-solutions.com/?p=4457";s:10:"menu_order";s:1:"0";s:9:"post_type";s:4:"post";s:14:"post_mime_type";s:0:"";s:13:"comment_count";s:1:"0";}}

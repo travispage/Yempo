@@ -1,0 +1,4 @@
+J®Y<?php exit; ?>a:1:{s:7:"content";a:5:{s:16:"post_views_count";a:1:{i:0;s:3:"562";}s:10:"_edit_lock";a:1:{i:0;s:12:"1444093852:2";}s:10:"_edit_last";a:1:{i:0;s:1:"2";}s:17:"my_slider_caption";a:1:{i:0;s:486:"&lt;h1 style=&quot;display:none!important&quot;&gt;Outsourcing Philippines | Outsourcing Business Services | Yempo&lt;/h1&gt;
+&lt;h2 style=&quot;color: #CC1C27!important;font-weight:500!important;&quot;&gt;Flexible&lt;/h2&gt;
+&lt;h3 style=&quot;color:#CC1C27!important;text-shadow:none!important;&quot;&gt;Offshoring Solutions&lt;/h3&gt;
+&lt;a href=&quot;http://www.yempo-solutions.com/contact/#&quot; class=&quot;btn-primary&quot;&gt;&lt;span&gt;FIND OUT MORE&lt;/span&gt;&lt;/a&gt;";}s:13:"_thumbnail_id";a:1:{i:0;s:4:"2848";}}}

@@ -1,0 +1,287 @@
+/*--
+	Theme Name: theme52950
+	Theme URI: http://info.template-help.com/help/
+	Description: A theme for Wordpress 3.8.x
+	Author: Template_Help.com
+	Author URI: http://info.template-help.com/help/
+	Template: CherryFramework
+	Version: 3.1.2
+--*/
+
+/* ----------------------------------------
+	Please, You may put custom css here
+---------------------------------------- */
+
+
+.nav .sf-menu .sub-menu li a:hover { /*color:#2b3a42;*/color:#ECECEC !important; }
+
+.nav .sf-menu .sub-menu li.sfHover >a { /*color:#2b3a42;*/color:#ECECEC !important; }
+
+.posts_grid_1 li h5 a:hover { /*color:#99bf38;*/ color:#2b3a42 !important;}
+
+.post-author .post-author_desc .post-author_link p a:hover { /*color:#99bf38;*/color:#fff !important; }
+
+.filter-wrapper ul li.active a {
+    /*color:#99bf38;*/
+    color:#fff !important;
+}
+
+.filter-wrapper ul li.active a:hover {
+    /*color:#99bf38;*/
+    color:#fff !important;
+}
+
+
+.filter-wrapper ul li a:hover {
+    /*color:#99bf38;*/
+    color:#fff !important;
+}
+
+.post_wrapper article .post-header h2 a:hover {
+    /*color:#99bf38;*/
+    /*color:#fff !important;*/
+	opacity: 0.5;
+}
+
+.post_meta_unite a:hover {
+    /*color:#99bf38;*/
+    color:#fff !important;
+}
+
+.service-box .btn-align a {
+    background:#cc1c27 !important;
+}
+
+.btn-primary:after {
+    /*background:#99bf38;*/
+    background:#551a8b !important;
+}
+
+.nav .sf-menu .sub-menu:after {
+    background:url(./images/arr1_menu1.png) no-repeat 50% 0 !important;
+}
+
+.logo .logo_tagline {
+    display: none !important;
+}
+
+.header {
+    padding: 0px !important;
+}
+
+.box_1 {
+    background: #5C8FB6 !important;
+}
+
+.testimonials-carousel .owl-wrapper-outer .owl-wrapper .owl-item .testi-item blockquote .testi-content-holder:after {
+    background: #DDAA3B !important;
+}
+
+.testimonials-carousel .owl-wrapper-outer .owl-wrapper .owl-item .testi-item blockquote .testi-content-holder .testi-meta .user {
+    color: #DDAA3B !important;
+}
+
+.posts_grid_1 li .post_meta {
+    /*background: #84347D !important;*/
+    background: #cc1c27 !important;
+}
+
+.hero-unit .btn-align:hover:before {
+    color: #5C8FB6 !important;
+}
+
+.custom-list ul li strong {
+    background: #84347D !important;
+}
+
+.team li .post_metabox {
+    color: #141414 !important;
+}  
+
+.banner-wrap h5 {
+    color: #6D9649 !important;
+} 
+
+#back-top a span:before {
+    background: #2B2B29 !important;
+}
+
+.testimonials-carousel .owl-controls .owl-buttons .owl-next:hover:before {
+    color: #DDAA3B !important;
+}
+
+.testimonials-carousel .owl-controls .owl-buttons .owl-prev:hover:before {
+    color: #DDAA3B !important;
+}
+
+.footer nav.footer-nav ul li.current-menu-item a {
+    color: #DDAA3B !important;
+}  
+
+.post-author {
+    display: none !important;
+}  
+
+#respond {
+    display: none !important;
+} 
+
+.nocomments {
+  	display: none !important;
+}
+
+
+.isStuck {
+    padding-bottom: 20px !important;
+}
+
+.block_1 h2 {
+    font-size: 40px !important;
+}
+
+
+#sidebar .widget {
+    display: none !important;
+}
+
+.nav .sf-menu >li.current_page_item >a >div:first-child+div span, .nav .sf-menu >li.sfHover >a >div:first-child+div span, .nav .sf-menu >li:hover >a >div:first-child+div span {
+color: #551a8b !important;
+}
+
+.nav .sf-menu .sub-menu {
+    background: #551a8b !important;
+}
+
+.wpcf7-form { 
+	background:#5C8FB6 !important; 
+	padding:20px !important;  
+	border:2px solid #f6efdf !important; 
+	margin-bottom:30px !important;  
+	border-radius:7px !important;  
+}
+ 
+.wpcf7-form input { 
+	background:#D8D8D8 !important;  
+	padding:5px 7px !important;  
+	border:3px solid #FFFFFF !important;  
+	margin-bottom:8px !important;  
+	border-radius:7px !important; 
+}
+ 
+.wpcf7-form textarea { 
+	background:#D8D8D8 !important;  
+	padding: 4px 25px 26px 21px!important; 
+	border:3px solid #FFFFFF !important;  
+	border-radius:7px !important; 
+}
+ 
+.wpcf7-form p { 
+	color:#FFFFFF !important;  
+	margin-top:10px !important;  
+}
+ 
+.wpcf7-form .wpcf7-submit { 
+	background:#83AFC8 !important;  
+	cursor:pointer !important;  
+        padding: 4px 25px 26px 21px!important; 
+	color:#fff !important; 
+	border-radius:7px !important; 
+}
+
+input[type="submit"], input[type="reset"] {
+    vertical-align: top;
+    height: 40px;
+}
+
+.footer {
+    background: #033052 !important;
+}
+
+.span12 .title-section {
+    display: block !important;
+}
+.footer #footer-text:before {
+    display: none !important;
+    background: white !imortant;
+}  
+
+.footer {
+    padding: 10px !important;
+} 
+
+.footer h4 {
+    color: #FFFFFF !important;
+}
+
+.footer .menu li a {
+    color: #FFFFFF !important;
+}
+
+.footer .textwidget {
+    text-transform: none !important;
+    color: #FFFFFF !important;
+}
+
+.footer .menu li a {
+    font-size: 14px !important;
+}
+
+.footer #footer-text {
+    font: 300 18px/18px 'Open Sans', sans-serif !important;
+    color: #FFFFFF !important;
+}
+
+
+.nav .sf-menu .sub-menu li a:hover{
+color: #DDA93B !important
+}
+//slider main caption
+#main-caption{
+    color: #EFE910!important;
+    /* text-shadow: 2px 8px 6px rgba(0,0,0,0.2), 0px -5px 35px rgba(255,255,255,0.3) !important; */
+    font-weight: 600 !important;
+    font-size: 129px!important;
+    line-height: 111px;
+}
+#back-top a:hover span:before{
+ color: #EFE910!important;
+}
+//featured news 
+.posts_grid_1 li h5 a {
+    color: #551A8B!important;
+}
+.posts_grid_1 li h5 a:hover {
+    color: #CE1A13!important;
+}
+//footer current link
+.footer nav.footer-nav ul li.current-menu-item a {
+    color: #DEAA3C !important;
+}
+.footer nav.footer-nav ul li a:hover,.footer .menu li a:hover,.team li h5 a:hover,.caption h3 a:hover {
+    color: #DEAA3C !important;
+}
+.service-box .btn-align .btn-primary:before {
+	    background: url('/wp-content/themes/theme52950/images/icon_01.png?bc7d68') 50% 50% no-repeat !important;
+}
+.btn-primary:before {
+    background: #CC1C27 !important;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    content: '';
+}
+
+
+.portfolio_item .portfolio_item_holder .excerpt {
+    padding-bottom: 0;
+    height: 115px!important;
+}
+.portfolio_item .portfolio_item_holder .caption h3 {
+    margin-bottom: 7px;
+    height: 50px;
+}
+

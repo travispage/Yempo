@@ -1,0 +1,1 @@
+[26-Aug-2016 14:11:22 Australia/Melbourne] PHP Fatal error:  Class 'WP_Filesystem_Base' not found in /home/mymy2018/public_yemposolutions/wp-admin/includes/class-wp-filesystem-ftpext.php on line 17

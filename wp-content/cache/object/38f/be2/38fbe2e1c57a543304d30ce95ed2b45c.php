@@ -1,0 +1,1 @@
+'®Y<?php exit; ?>a:1:{s:7:"content";s:331:"a:6:{s:4:"path";s:51:"/home3/yempo/public_html/wp-content/uploads/2017/09";s:3:"url";s:57:"http://www.yempo-solutions.com/wp-content/uploads/2017/09";s:6:"subdir";s:8:"/2017/09";s:7:"basedir";s:43:"/home3/yempo/public_html/wp-content/uploads";s:7:"baseurl";s:49:"http://www.yempo-solutions.com/wp-content/uploads";s:5:"error";b:0;}";}

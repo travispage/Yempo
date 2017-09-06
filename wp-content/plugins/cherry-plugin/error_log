@@ -1,0 +1,1 @@
+[08-May-2017 04:11:34 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home3/yempo/public_html/wp-content/plugins/cherry-plugin/cherry-plugin.php on line 48
